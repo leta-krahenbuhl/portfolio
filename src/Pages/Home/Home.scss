@@ -1,4 +1,21 @@
+@use "../../styles/partials/variables" as *;
+
 .home {
-  background-color: red;
+  background-color: $primary1;
   min-height: 100vh;
+  font-family: OpenSans-ExtraBold;
+  color: $primary-font1;
+}
+
+.header {
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+
+  &__leta {
+    font-size: 7rem;
+  }
+
+  &__krahen {
+    font-size: 2.52rem;
+  }
 }
