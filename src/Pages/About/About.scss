@@ -26,6 +26,18 @@
 
   &__text {
     padding-bottom: 1rem;
+    color: $primary-font3;
+  }
+
+  &__text-link {
+    display: block;
+    padding-bottom: 1rem;
+    color: $primary-font3;
+    cursor: pointer;
+  }
+
+  &__text-link:hover {
+    color: $primary-hover2;
   }
 }
 
@@ -48,5 +60,5 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffc9e3;
+  background: $primary-hover2;
 }

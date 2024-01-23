@@ -8,7 +8,7 @@ export default function About() {
       <Header />
       <article className="about__container">
         <main className="about__main">
-          <p className="about__text">Hi! </p>
+          <p className="about__text">Hi! &#9996;</p>
 
           <p className="about__text">
             I am Leta, a recent software engineering diploma graduate. I love
@@ -28,9 +28,25 @@ export default function About() {
             Do get in touch or check out my socials!
           </p>
 
-          <p>LinkedIn </p>
+          <a
+            className="about__text-link"
+            href="https://www.linkedin.com/in/leta-krahenbuhl/"
+          >
+            {" "}
+            &#128391; LinkedIn{" "}
+          </a>
 
-          <p> GitHub</p>
+          <a
+            className="about__text-link"
+            href="https://github.com/leta-krahenbuhl"
+          >
+            {" "}
+            &#128187; GitHub
+          </a>
+
+          <a className="about__text-link" href="mailto:example@gmail.com">
+            &#x1F4E7; Send me an email
+          </a>
         </main>
 
         <div className="about__navigation">
