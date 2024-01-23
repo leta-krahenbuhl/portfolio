@@ -1,0 +1,58 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header {
+  padding-top: 3rem;
+  padding-left: 2.5rem;
+
+  &__logo:hover {
+    @include hover;
+  }
+
+  &__leta {
+    font-size: 7.1rem;
+    line-height: 5.3rem;
+    margin-left: -0.3rem;
+  }
+
+  &__krahen {
+    font-size: 2.52rem;
+  }
+
+  &__caret {
+    @include caret;
+    line-height: 2rem;
+  }
+}
+
+.header-part2 {
+  &__junior {
+    font-size: 4.6rem;
+    line-height: 3rem;
+  }
+
+  &__software {
+    font-size: 3.1rem;
+    line-height: 4.1rem;
+  }
+
+  &__engineer {
+    font-size: 3.43rem;
+    line-height: 2.1rem;
+  }
+
+  &__caret2 {
+    @include caret;
+    line-height: 3.6rem;
+  }
+
+  &__london {
+    font-size: 4rem;
+    line-height: 0.9rem;
+  }
+
+  &__caret3 {
+    @include caret;
+    line-height: 5.4rem;
+  }
+}

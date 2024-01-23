@@ -16,3 +16,8 @@
   font-size: 2.74rem;
   color: $primary-font2;
 }
+
+@mixin hover {
+  color: $primary-hover;
+  cursor: pointer;
+}
