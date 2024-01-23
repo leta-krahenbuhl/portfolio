@@ -8,6 +8,17 @@
     position: relative;
   }
 
+  @keyframes about-main {
+    from {
+      //   transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      //   transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
   &__main {
     margin-left: 2.5rem;
     margin-top: 2.5rem;
@@ -22,6 +33,10 @@
     border-radius: 10px;
     overflow-y: auto;
     overflow-x: hidden;
+    animation-name: about-main;
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
   }
 
   &__text {
@@ -34,6 +49,7 @@
     padding-bottom: 1rem;
     color: $primary-font3;
     cursor: pointer;
+    width: max-content;
   }
 
   &__text-link:hover {
