@@ -4,6 +4,7 @@
 .header {
   padding-top: 3rem;
   padding-left: 2.5rem;
+  width: max-content;
 
   &__logo:hover {
     @include hover;

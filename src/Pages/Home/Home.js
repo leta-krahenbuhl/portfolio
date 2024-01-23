@@ -4,10 +4,9 @@ import "./Home.scss";
 
 export default function Home() {
   return (
-    <article className="home">
+    <main className="home">
       <Header />
       <Navigation />
-      <main className="main"></main>
-    </article>
+    </main>
   );
 }

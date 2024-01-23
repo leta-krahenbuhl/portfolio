@@ -1,0 +1,52 @@
+@use "../../styles/partials/variables" as *;
+
+.about {
+  height: 100vh;
+
+  &__container {
+    display: flex;
+    position: relative;
+  }
+
+  &__main {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    max-height: 25rem;
+    padding: 2.5rem;
+    position: fixed;
+    bottom: 2.5rem;
+    width: 60%;
+    background-color: $primary-background2;
+    color: $primary-font3;
+    font-family: FiraCode-Medium;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  &__text {
+    padding-bottom: 1rem;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffd3e8;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc9e3;
+}

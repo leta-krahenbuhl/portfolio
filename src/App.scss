@@ -1,2 +1,9 @@
 @use "./styles/partials/typography";
 @use "./styles/partials/resets";
+@use "./styles/partials/variables" as *;
+
+.app {
+  color: $primary-font1;
+  font-family: Raleway-Black;
+  background-color: $primary1;
+}

@@ -1,7 +1,7 @@
 import "./Navigation.scss";
 import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function Navigation() {
   return (
     <nav className="navigation">
       <Link to="/about">
