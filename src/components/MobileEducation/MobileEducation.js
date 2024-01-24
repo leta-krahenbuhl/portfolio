@@ -6,48 +6,41 @@ export default function MobileEducation() {
     <article className="education-mobile">
       <Collapsible trigger="EDUCATiON">
         <div className="education-mobile__textbox">
-          <p className="about__text">Hi! &#9996;</p>
-          <p className="about__text">
-            I am Leta, a recent software engineering diploma graduate. I love
-            things that make sense, ticking off lists, and playing code
-            detective following a lovely trail of error messages.
+          <h2 className="education-mobile__text">
+            Software Engineering Diploma Graduate
+          </h2>
+          <p className="education-mobile___text">@ BrainStation, London (UK)</p>
+          <p className="education-mobile___text">Sep 2023 - Dec 2023</p>
+          {/* change class names */}
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">Passing grade 92%</li>
+            <li className="projects-mobile__list-item">
+              HTML, BEM, CSS, SASS, JavaScript, React JS, JSX
+            </li>
+            <li className="projects-mobile__list-item">
+              Node/Express, mySQL, Knex, REST APIs
+            </li>
+            <li className="projects-mobile__list-item">
+              Best practices, GitHub version control, Agile developing, pair
+              programming, scrums, deployment
+            </li>
+          </ul>
+        </div>
+        <div className="education-mobile__textbox">
+          <h2 className="education-mobile__text">
+            Bacherlor's Degree in InterMedia
+          </h2>
+          <p className="education-mobile___text">
+            @ University of Applied Sciences, Dornbirn (AUT)
           </p>
-          <p className="about__text">
-            After exploring the social sector and developing my soft and problem
-            solving skills, I am going back to my roots - the tech industry.
-            Coming originally from a graphic design background and now mastering
-            the technical side gives me a unique understanding of the
-            development process.
-          </p>
-
-          <p className="about__text">
-            Do get in touch or check out my socials!
-          </p>
-
-          <a
-            className="about__text-link"
-            href="https://www.linkedin.com/in/leta-krahenbuhl/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            &#128391; LinkedIn
-          </a>
-
-          <a
-            className="about__text-link"
-            href="https://github.com/leta-krahenbuhl"
-            target="_blank"
-            rel="noreferrer"
-          >
-            &#128187; GitHub
-          </a>
-
-          <a
-            className="about__text-link"
-            href="mailto:leta.krahenbuhl@gmail.com"
-          >
-            &#x1F4E7; Send me an email
-          </a>
+          <p className="education-mobile___text">Aug 2008 - Aug 2011</p>
+          {/* change class names */}
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              Subjects included programming, design, photography, psychology,
+              typography
+            </li>
+          </ul>
         </div>
       </Collapsible>
     </article>
