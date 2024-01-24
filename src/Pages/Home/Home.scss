@@ -1,3 +1,19 @@
+@use "../../styles/partials/mixins" as *;
+
 .home {
   min-height: 100vh;
+}
+
+.navigation-mobile {
+  @include tablet {
+    display: none;
+  }
+}
+
+.navigation-tablet {
+  display: none;
+
+  @include tablet {
+    display: inline;
+  }
 }
