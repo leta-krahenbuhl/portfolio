@@ -1,53 +1,72 @@
 import "./MobileProjects.scss";
 import Collapsible from "react-collapsible";
+import nbHome from "../../assets/images/home.png";
+import nbNotebook from "../../assets/images/notebook.png";
+import nbData from "../../assets/images/data.png";
 
 export default function MobileProjects() {
   return (
     <article className="projects-mobile">
       <Collapsible trigger="PROJECTS">
         <div className="projects-mobile__textbox">
-          <p className="about__text">Hi! &#9996;</p>
-          <p className="about__text">
-            I am Leta, a recent software engineering diploma graduate. I love
-            things that make sense, ticking off lists, and playing code
-            detective following a lovely trail of error messages.
-          </p>
-          <p className="about__text">
-            After exploring the social sector and developing my soft and problem
-            solving skills, I am going back to my roots - the tech industry.
-            Coming originally from a graphic design background and now mastering
-            the technical side gives me a unique understanding of the
-            development process.
-          </p>
-
-          <p className="about__text">
-            Do get in touch or check out my socials!
-          </p>
-
-          <a
-            className="about__text-link"
-            href="https://www.linkedin.com/in/leta-krahenbuhl/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            &#128391; LinkedIn
-          </a>
-
-          <a
-            className="about__text-link"
-            href="https://github.com/leta-krahenbuhl"
-            target="_blank"
-            rel="noreferrer"
-          >
-            &#128187; GitHub
-          </a>
-
-          <a
-            className="about__text-link"
-            href="mailto:leta.krahenbuhl@gmail.com"
-          >
-            &#x1F4E7; Send me an email
-          </a>
+          <p className="projects-mobile__text-header">NOTEBOOKS</p>
+          <p className="projects-mobile__text-header">General</p>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              Capstone project from the BrainStation software engineering
+              bootcamp to showcase front and back-end skills acquired
+            </li>
+          </ul>
+          <p className="projects-mobile__text-header">Tech Stack</p>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              HTML/BEM, CSS/SASS, JavaScript/JSX, React JS, Node/Express server
+            </li>
+            <li className="projects-mobile__list-item">
+              Use of MySQL database with Knex.js{" "}
+            </li>
+          </ul>
+          <p className="projects-mobile__text-header">Check It Out</p>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              <a
+                className="projects-mobile__link"
+                href="https://lk-notebooks.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live page
+              </a>
+            </li>
+            <li className="projects-mobile__list-item">
+              <a
+                className="projects-mobile__link"
+                href="https://github.com/leta-krahenbuhl/notebooks"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub repo
+              </a>
+            </li>
+          </ul>
+          <p className="projects-mobile__text-header">Screenshots</p>
+          <div className="projects-mobile__screenshot-container">
+            <img
+              src={nbHome}
+              alt="screenshot of notebook app home"
+              className="projects-mobile__image"
+            />
+            <img
+              src={nbNotebook}
+              alt="screenshot of notebook app notebook page"
+              className="projects-mobile__image"
+            />
+          </div>
+          <img
+            src={nbData}
+            alt="screenshot of database structure"
+            className="projects-mobile__image projects-mobile__image--wide"
+          />
         </div>
       </Collapsible>
     </article>
