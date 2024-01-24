@@ -25,6 +25,7 @@ export default function MobileProjects() {
             <li className="projects-mobile__list-item">
               Use of MySQL database with Knex.js{" "}
             </li>
+            <li className="projects-mobile__list-item">Three API endpoints</li>
           </ul>
           <p className="projects-mobile__text-header">Check It Out</p>
           <ul className="projects-mobile__list">
