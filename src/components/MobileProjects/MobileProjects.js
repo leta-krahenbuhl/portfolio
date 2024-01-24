@@ -68,6 +68,37 @@ export default function MobileProjects() {
             className="projects-mobile__image projects-mobile__image--wide"
           />
         </div>
+        <div className="projects-mobile__textbox">
+          <p className="projects-mobile__text-header">PORTFOLIO</p>
+          <p className="projects-mobile__text-header">Tech Stack</p>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              React app with HTML/BEM, CSS/SASS and Javascript
+            </li>
+            <li className="projects-mobile__list-item">
+              Use of npm package (react-collapsible){" "}
+            </li>
+            <li className="projects-mobile__list-item">
+              Version control with GitHub
+            </li>
+            <li className="projects-mobile__list-item">
+              Timeframe (including design): 4 days
+            </li>
+          </ul>
+          <p className="projects-mobile__text-header">More</p>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              <a
+                className="projects-mobile__link"
+                href="https://github.com/leta-krahenbuhl/portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub repo
+              </a>
+            </li>
+          </ul>
+        </div>
       </Collapsible>
     </article>
   );
