@@ -5,30 +5,26 @@
   text-align: center;
 }
 
-.about-mobile {
-  font-size: 4.95rem;
-  margin-top: -3rem;
-  margin-bottom: 0.5rem;
-}
-
-.about-mobile__textbox {
-  background-color: $primary-font1;
-  font-family: FiraCode-Medium;
-  font-size: 1rem;
-  color: $primary-font3;
-  margin: 1rem;
-  padding: 1rem;
-  text-align: left;
-}
-
 .nav-mobile__caret1 {
   @include caret;
   line-height: 0.1rem;
 }
 
-.projects-mobile {
-  font-size: 3.4rem;
-  margin-top: 0.1rem;
+.nav-mobile__caret2 {
+  @include caret;
+  line-height: 1.9rem;
+}
+
+.nav-mobile__caret3 {
+  @include caret;
+  line-height: 1.9rem;
+}
+
+.nav-mobile__caret4 {
+  @include caret;
+  line-height: 3.9rem;
+  margin-top: -15px;
+  padding-bottom: 1.5rem;
 }
 
 // ------------------ to go with Old Navigation

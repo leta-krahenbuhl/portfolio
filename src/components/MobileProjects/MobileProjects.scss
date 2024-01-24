@@ -1,0 +1,12 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.projects-mobile {
+  color: $primary-hover;
+  font-size: 3.4rem;
+  margin-top: 0.2rem;
+
+  &__textbox {
+    @include mobile-textbox;
+  }
+}

@@ -1,0 +1,23 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.about-mobile {
+  color: $primary-hover;
+  font-size: 4.95rem;
+  margin-top: -3rem;
+  margin-bottom: 0.5rem;
+
+  &__caret1 {
+    @include caret;
+    line-height: 1.9rem;
+  }
+
+  &__textbox {
+    @include mobile-textbox;
+  }
+}
+
+// Collapsible__contentOuter
+// margin-top -0.5rem
+
+// caret1 line-height: 1rem;

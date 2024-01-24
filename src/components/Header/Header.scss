@@ -34,31 +34,19 @@
   &__junior {
     font-size: 4.6rem;
     line-height: 3rem;
-    color: $primary-hover;
-
-    @include tablet {
-      color: $primary-font1;
-    }
+    color: $primary-font1;
   }
 
   &__software {
     font-size: 3.1rem;
     line-height: 4.1rem;
-    color: $primary-hover;
-
-    @include tablet {
-      color: $primary-font1;
-    }
+    color: $primary-font1;
   }
 
   &__engineer {
     font-size: 3.43rem;
     line-height: 2.1rem;
-    color: $primary-hover;
-
-    @include tablet {
-      color: $primary-font1;
-    }
+    color: $primary-font1;
   }
 
   &__caret2 {
@@ -69,11 +57,7 @@
   &__london {
     font-size: 4rem;
     line-height: 0.9rem;
-    color: $primary-hover;
-
-    @include tablet {
-      color: $primary-font1;
-    }
+    color: $primary-font1;
   }
 
   &__caret3 {

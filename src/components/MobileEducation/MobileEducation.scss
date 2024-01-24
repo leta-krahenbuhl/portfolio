@@ -1,0 +1,13 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.education-mobile {
+  color: $primary-hover;
+
+  font-size: 2.97rem;
+  margin-top: -0.8rem;
+
+  &__textbox {
+    @include mobile-textbox;
+  }
+}

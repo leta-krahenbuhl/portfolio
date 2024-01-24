@@ -1,0 +1,12 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.experience-mobile {
+  color: $primary-hover;
+  font-size: 2.82rem;
+  margin-top: -0.9rem;
+
+  &__textbox {
+    @include mobile-textbox;
+  }
+}
