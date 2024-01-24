@@ -1,62 +1,94 @@
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
-.navigation-mobile {
+.nav-mobile {
   text-align: center;
-  padding-bottom: 0.5rem;
-
-  &__about {
-    font-size: 4.95rem;
-    margin-top: -3rem;
-  }
-
-  &__about:hover {
-    @include hover;
-  }
-
-  &__caret1 {
-    @include caret;
-    line-height: 1.2rem;
-  }
-
-  &__projects {
-    font-size: 3.4rem;
-    line-height: 3rem;
-  }
-
-  &__projects:hover {
-    @include hover;
-  }
-
-  &__caret2 {
-    @include caret;
-    line-height: 3rem;
-  }
-
-  &__education {
-    font-size: 3rem;
-    line-height: 0.9rem;
-  }
-
-  &__education:hover {
-    @include hover;
-  }
-
-  &__caret3 {
-    @include caret;
-    line-height: 4.6rem;
-  }
-
-  &__experience {
-    font-size: 2.8rem;
-    line-height: 0rem;
-  }
-
-  &__experience:hover {
-    @include hover;
-  }
-
-  &__caret4 {
-    @include caret;
-    line-height: 5.6rem;
-  }
 }
+
+.about-mobile {
+  font-size: 4.95rem;
+  margin-top: -3rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-mobile__textbox {
+  background-color: $primary-font1;
+  font-family: FiraCode-Medium;
+  font-size: 1rem;
+  color: $primary-font3;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.nav-mobile__caret1 {
+  @include caret;
+  line-height: 0.1rem;
+}
+
+.projects-mobile {
+  font-size: 3.4rem;
+  margin-top: 0.1rem;
+}
+
+// ------------------ to go with Old Navigation
+// .navigation-mobile {
+//   text-align: center;
+//   padding-bottom: 0.5rem;
+
+//   &__about {
+//     font-size: 4.95rem;
+//     margin-top: -3rem;
+//   }
+
+//   &__about:hover {
+//     @include hover;
+//   }
+
+//   &__caret1 {
+//     @include caret;
+//     line-height: 1.2rem;
+//   }
+
+//   &__projects {
+//     font-size: 3.4rem;
+//     line-height: 3rem;
+//   }
+
+//   &__projects:hover {
+//     @include hover;
+//   }
+
+//   &__caret2 {
+//     @include caret;
+//     line-height: 3rem;
+//   }
+
+//   &__education {
+//     font-size: 3rem;
+//     line-height: 0.9rem;
+//   }
+
+//   &__education:hover {
+//     @include hover;
+//   }
+
+//   &__caret3 {
+//     @include caret;
+//     line-height: 4.6rem;
+//   }
+
+//   &__experience {
+//     font-size: 2.8rem;
+//     line-height: 0rem;
+//   }
+
+//   &__experience:hover {
+//     @include hover;
+//   }
+
+//   &__caret4 {
+//     @include caret;
+//     line-height: 5.6rem;
+//   }
+// }
