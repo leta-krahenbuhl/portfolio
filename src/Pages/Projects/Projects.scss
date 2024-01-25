@@ -1,0 +1,28 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.projects {
+  min-height: 100vh;
+}
+
+.desktop-text-box-wrapper {
+  display: none;
+
+  @include tablet {
+    display: inline;
+  }
+}
+
+.navigation-mobile {
+  @include tablet {
+    display: none;
+  }
+}
+
+.navigation-tablet {
+  display: none;
+
+  @include tablet {
+    display: inline;
+  }
+}

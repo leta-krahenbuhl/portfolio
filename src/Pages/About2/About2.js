@@ -7,7 +7,7 @@ import "./About2.scss";
 import React, { useEffect, useState } from "react";
 
 export default function About2() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -24,7 +24,7 @@ export default function About2() {
   }, []);
 
   return (
-    <main className="home">
+    <article className="about">
       <Header />
       {isVisible && <HeaderSub />}
       <div className="desktop-text-box-wrapper">
@@ -36,6 +36,6 @@ export default function About2() {
       <div className="navigation-mobile">
         <NavigationMobile />
       </div>
-    </main>
+    </article>
   );
 }

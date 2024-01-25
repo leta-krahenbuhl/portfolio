@@ -1,13 +1,13 @@
 import "./Projects.scss";
-import DesktopTextBox from "../../components/DesktopTextBox/DesktopTextBox";
 import Header from "../../components/Header/Header";
 import HeaderSub from "../../components/HeaderSub/HeaderSub";
 import Navigation from "../../components/Navigation/Navigation";
 import NavigationMobile from "../../components/NavigationMobile/NavigationMobile";
 import React, { useEffect, useState } from "react";
+import DesktopBoxProjects from "../../components/DesktopBoxProjects/DesktopBoxProjects";
 
 export default function Projects() {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -24,11 +24,11 @@ export default function Projects() {
   }, []);
 
   return (
-    <main className="home">
+    <article className="projects">
       <Header />
       {isVisible && <HeaderSub />}
-      <div className="desktop-text-box">
-        <DesktopTextBox />
+      <div className="desktop-text-box-wrapper">
+        <DesktopBoxProjects />
       </div>
       <div className="navigation-tablet">
         <Navigation />
@@ -36,6 +36,6 @@ export default function Projects() {
       <div className="navigation-mobile">
         <NavigationMobile />
       </div>
-    </main>
+    </article>
   );
 }
