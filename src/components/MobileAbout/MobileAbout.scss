@@ -7,17 +7,14 @@
   margin-top: -3rem;
   margin-bottom: 0.5rem;
 
-  &__caret1 {
-    @include caret;
-    line-height: 1.9rem;
-  }
+  // &__caret1 {
+  //   @include caret;
+  //   line-height: 1.9rem;
+  // }
 
   &__textbox {
     @include mobile-textbox;
   }
+
+  @include mobile-text;
 }
-
-// Collapsible__contentOuter
-// margin-top -0.5rem
-
-// caret1 line-height: 1rem;

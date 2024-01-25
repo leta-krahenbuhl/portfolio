@@ -32,3 +32,51 @@
   text-align: left;
   border-radius: 10px;
 }
+
+@mixin mobile-text {
+  &__header {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+
+    &--extra {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__subheader {
+    font-size: 0.8rem;
+
+    &--bottom {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__list {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  &__list-item {
+    margin-bottom: 0.5rem;
+  }
+
+  &__text {
+    text-align: left;
+    padding-bottom: 1rem;
+    color: $primary-font3;
+    font-size: 1rem;
+  }
+
+  &__text-link {
+    padding-bottom: 1rem;
+    color: $primary-font3;
+    cursor: pointer;
+    width: max-content;
+    text-decoration: underline;
+  }
+
+  &__text-link:hover {
+    color: $primary-hover2;
+  }
+}

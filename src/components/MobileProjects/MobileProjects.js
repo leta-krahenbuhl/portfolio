@@ -70,7 +70,7 @@ export default function MobileProjects() {
           />
         </div>
         <div className="projects-mobile__textbox">
-          <p className="projects-mobile__text-header">PORTFOLIO</p>
+          <p className="projects-mobile__text-header">THIS PORTFOLIO</p>
           <p className="projects-mobile__text-header">Tech Stack</p>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">

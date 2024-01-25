@@ -9,4 +9,6 @@
   &__textbox {
     @include mobile-textbox;
   }
+
+  @include mobile-text;
 }
