@@ -14,7 +14,7 @@ export default function Header() {
         </div>
       </Link>
 
-      {location.pathname === "/" && (
+      {(location.pathname === "/" || location.pathname === "/about2") && (
         <article className="header-part2">
           <p className="header-part2__junior">JUNiOR</p>
           <p className="header-part2__software">SOFTWARE</p>

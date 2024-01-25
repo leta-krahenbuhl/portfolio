@@ -5,6 +5,7 @@ import About from "../src/Pages/About/About";
 import Projects from "../src/Pages/Projects/Projects";
 import Education from "../src/Pages/Education/Education";
 import Experience from "../src/Pages/Experience/Experience";
+import About2 from "../src/Pages/About2/About2";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/education" element={<Education />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/about2" element={<About2 />} />
         </Routes>
       </div>
     </BrowserRouter>

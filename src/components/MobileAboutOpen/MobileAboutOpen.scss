@@ -1,0 +1,15 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.about-mobile {
+  color: $primary-hover;
+  font-size: 4.95rem;
+  margin-top: -3rem;
+  margin-bottom: 0.5rem;
+
+  &__textbox {
+    @include mobile-textbox;
+  }
+
+  @include mobile-text;
+}

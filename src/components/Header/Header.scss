@@ -64,4 +64,8 @@
     @include caret;
     line-height: 5.4rem;
   }
+
+  @include tablet {
+    display: none;
+  }
 }
