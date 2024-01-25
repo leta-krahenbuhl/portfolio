@@ -23,7 +23,7 @@ export default function MobileProjects() {
               HTML/BEM, CSS/SASS, JavaScript/JSX, React JS, Node/Express server
             </li>
             <li className="projects-mobile__list-item">
-              Use of MySQL database with Knex.js{" "}
+              Use of MySQL database with Knex.js
             </li>
             <li className="projects-mobile__list-item">Three API endpoints</li>
           </ul>
@@ -75,9 +75,6 @@ export default function MobileProjects() {
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               React app with HTML/BEM, CSS/SASS and Javascript
-            </li>
-            <li className="projects-mobile__list-item">
-              Use of npm package (react-collapsible){" "}
             </li>
             <li className="projects-mobile__list-item">
               Version control with GitHub
