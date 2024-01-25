@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navigation() {
   return (
     <nav className="navigation">
-      <Link to="/about">
+      <Link to="/about2">
         <p className="navigation__about">ABOUT</p>
         <p className="navigation__caret1">^^^^^^^^^^</p>
       </Link>

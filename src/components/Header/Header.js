@@ -1,9 +1,9 @@
 import "./Header.scss";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 
 export default function Header() {
-  const location = useLocation();
+  // const location = useLocation();
   return (
     <header className="header">
       <Link to="/">
@@ -14,7 +14,7 @@ export default function Header() {
         </div>
       </Link>
 
-      {(location.pathname === "/" || location.pathname === "/about2") && (
+      {/* {(location.pathname === "/" || location.pathname === "/about2") && (
         <article className="header-part2">
           <p className="header-part2__junior">JUNiOR</p>
           <p className="header-part2__software">SOFTWARE</p>
@@ -23,7 +23,7 @@ export default function Header() {
           <p className="header-part2__london">LONDON</p>
           <p className="header-part2__caret3">^^^^^^^^^^</p>
         </article>
-      )}
+      )} */}
     </header>
   );
 }

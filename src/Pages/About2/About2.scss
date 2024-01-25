@@ -1,7 +1,16 @@
 @use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/mixins" as *;
 
 .home {
   min-height: 100vh;
+}
+
+.desktop-text-box {
+  display: none;
+
+  @include tablet {
+    display: inline;
+  }
 }
 
 .navigation-mobile {

@@ -7,14 +7,15 @@
   margin-top: -3rem;
   margin-bottom: 0.5rem;
 
-  // &__caret1 {
-  //   @include caret;
-  //   line-height: 1.9rem;
-  // }
-
   &__textbox {
     @include mobile-textbox;
   }
 
   @include mobile-text;
+}
+
+//where to put this? changes all the hovers, not just about
+.Collapsible__trigger:hover {
+  color: $primary-hover2;
+  cursor: pointer;
 }

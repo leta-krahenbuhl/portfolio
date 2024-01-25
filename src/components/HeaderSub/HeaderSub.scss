@@ -1,0 +1,46 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header-part2 {
+  text-align: center;
+  padding-top: 0rem;
+
+  @include tablet {
+    padding-left: 2.5rem;
+    width: max-content;
+  }
+
+  &__junior {
+    font-size: 4.6rem;
+    line-height: 3rem;
+    color: $primary-font1;
+  }
+
+  &__software {
+    font-size: 3.1rem;
+    line-height: 4.1rem;
+    color: $primary-font1;
+  }
+
+  &__engineer {
+    font-size: 3.43rem;
+    line-height: 2.1rem;
+    color: $primary-font1;
+  }
+
+  &__caret2 {
+    @include caret;
+    line-height: 3.6rem;
+  }
+
+  &__london {
+    font-size: 4rem;
+    line-height: 0.9rem;
+    color: $primary-font1;
+  }
+
+  &__caret3 {
+    @include caret;
+    line-height: 5.4rem;
+  }
+}
