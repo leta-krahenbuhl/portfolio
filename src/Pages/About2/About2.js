@@ -27,7 +27,7 @@ export default function About2() {
     <main className="home">
       <Header />
       {isVisible && <HeaderSub />}
-      <div className="desktop-text-box">
+      <div className="desktop-text-box-wrapper">
         <DesktopTextBox />
       </div>
       <div className="navigation-tablet">
