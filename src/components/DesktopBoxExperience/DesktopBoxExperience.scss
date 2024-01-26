@@ -2,21 +2,15 @@
 @use "../../styles/partials/variables" as *;
 
 .desktop-text-box-new {
-  // display: flex;
-  // position: relative;
-
   &__main {
     margin-left: 2.5rem;
     margin-top: 2.5rem;
     max-height: 25rem;
-    // padding: 2.5rem;
     position: fixed;
     bottom: 2.5rem;
     width: 60%;
-    // background-color: $primary-background2;
-    // color: $primary-font3;
-    // font-family: FiraCode-Medium;
-    // border-radius: 10px;
+    background-color: $primary1-background-lighter;
+    border-radius: 10px;
     overflow-y: auto;
     overflow-x: hidden;
     animation-name: about-main;
@@ -35,9 +29,8 @@
   }
 
   &__section {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    padding: 2.5rem;
+    margin: 2.1rem 1rem 2rem 2rem;
+    padding: 2rem;
     background-color: $primary-background2;
     color: $primary-font3;
     font-family: FiraCode-Medium;
@@ -83,26 +76,3 @@
     color: $primary-hover2;
   }
 }
-
-// // where to put this? Does it affect all scroll bars all over the page??
-// /* width */
-// ::-webkit-scrollbar {
-//   width: 1.2rem;
-// }
-
-// /* Track */
-// ::-webkit-scrollbar-track {
-//   background: #f1f1f1;
-//   border-radius: 20px;
-// }
-
-// /* Handle */
-// ::-webkit-scrollbar-thumb {
-//   background: #ffd3e8;
-//   border-radius: 20px;
-// }
-
-// /* Handle on hover */
-// ::-webkit-scrollbar-thumb:hover {
-//   background: $primary-hover2;
-// }
