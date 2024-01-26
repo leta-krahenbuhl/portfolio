@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function MobileAbout() {
   const navigate = useNavigate();
+  const isAboutPage = window.location.pathname.endsWith("/about2");
 
   const handleOpen = () => {
     navigate("/about2");
@@ -11,7 +12,7 @@ export default function MobileAbout() {
 
   return (
     <article className="about-mobile">
-      <Collapsible trigger="ABOUT" onOpen={handleOpen}>
+      <Collapsible trigger="ABOUT" open={isAboutPage} onOpen={handleOpen}>
         <div className="about-mobile__textbox">
           <p className="about-mobile__text">Hi! &#9996;</p>
           <p className="about-mobile__text">

@@ -6,8 +6,8 @@ import nbData from "../../assets/images/data.png";
 import { useNavigate } from "react-router-dom";
 
 export default function MobileProjects() {
-  const isProjectsPage = window.location.pathname.endsWith("/projects");
   const navigate = useNavigate();
+  const isProjectsPage = window.location.pathname.endsWith("/projects");
 
   const handleOpen = () => {
     navigate("/projects");
