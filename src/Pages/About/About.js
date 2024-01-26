@@ -3,10 +3,10 @@ import Header from "../../components/Header/Header";
 import HeaderSub from "../../components/HeaderSub/HeaderSub";
 import Navigation from "../../components/Navigation/Navigation";
 import NavigationMobile from "../../components/NavigationMobile/NavigationMobile";
-import "./About2.scss";
+import "./About.scss";
 import React, { useEffect, useState } from "react";
 
-export default function About2() {
+export default function About() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

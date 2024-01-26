@@ -4,10 +4,10 @@ import { useNavigate } from "react-router-dom";
 
 export default function MobileAbout() {
   const navigate = useNavigate();
-  const isAboutPage = window.location.pathname.endsWith("/about2");
+  const isAboutPage = window.location.pathname.endsWith("/about");
 
   const handleOpen = () => {
-    navigate("/about2");
+    navigate("/about");
   };
 
   return (
