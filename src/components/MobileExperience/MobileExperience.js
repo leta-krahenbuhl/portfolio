@@ -1,10 +1,22 @@
 import "./MobileExperience.scss";
 import Collapsible from "react-collapsible";
+import { useNavigate } from "react-router-dom";
 
 export default function MobileExperience() {
+  const navigate = useNavigate();
+  const isExperiencePage = window.location.pathname.endsWith("/experience");
+
+  const handleOpen = () => {
+    navigate("/experience");
+  };
+
   return (
     <article className="experience-mobile">
-      <Collapsible trigger="EXPERiENCE">
+      <Collapsible
+        trigger="EXPERiENCE"
+        open={isExperiencePage}
+        onOpen={handleOpen}
+      >
         <div className="experience-mobile__textbox">
           <h2 className="experience-mobile__header">
             FAMILY SUPPORT WORKER AT HMP BRIXTON
