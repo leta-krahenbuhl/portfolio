@@ -1,10 +1,22 @@
 import "./MobileEducation.scss";
 import Collapsible from "react-collapsible";
+import { useNavigate } from "react-router-dom";
 
 export default function MobileEducation() {
+  const navigate = useNavigate();
+  const isEducationPage = window.location.pathname.endsWith("/education");
+
+  const handleOpen = () => {
+    navigate("/education");
+  };
+
   return (
     <article className="education-mobile">
-      <Collapsible trigger="EDUCATiON">
+      <Collapsible
+        trigger="EDUCATiON"
+        open={isEducationPage}
+        onOpen={handleOpen}
+      >
         <div className="education-mobile__textbox">
           <h2 className="education-mobile__header">
             DIPLOMA IN SOFTWARE ENGINEERING
