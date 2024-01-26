@@ -6,8 +6,16 @@
   padding-top: 3rem;
 
   @include tablet {
+    padding-top: 1rem;
+    padding-left: 1.4rem;
+    width: max-content;
+  }
+
+  @include desktop {
+    padding-top: 3rem;
     padding-left: 2.5rem;
     width: max-content;
+    text-align: center;
   }
 
   &__logo--active:hover {
@@ -22,14 +30,48 @@
     font-size: 7.1rem;
     line-height: 5.3rem;
     margin-left: -0.3rem;
+
+    @include tablet {
+      font-size: 5.1rem;
+      margin-left: -0.25rem;
+    }
+
+    @include desktop {
+      font-size: 5.1rem;
+      margin-left: -0.25rem;
+      font-size: 7.1rem;
+      line-height: 5.3rem;
+      margin-left: -0.3rem;
+    }
   }
 
   &__krahen {
     font-size: 2.52rem;
+    line-height: 3.1rem;
+
+    @include tablet {
+      font-size: 1.82rem;
+      line-height: 0.8rem;
+    }
+
+    @include desktop {
+      font-size: 2.52rem;
+      line-height: 3.1rem;
+    }
   }
 
   &__caret {
     @include caret;
     line-height: 2rem;
+
+    @include tablet {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+
+    @include desktop {
+      font-size: 2.74rem;
+      line-height: 2rem;
+    }
   }
 }

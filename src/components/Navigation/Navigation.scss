@@ -9,11 +9,31 @@
   bottom: 5px;
   right: 5px;
 
+  @include tablet {
+    position: fixed;
+    right: 0rem;
+    padding-right: 1.3rem;
+    margin-bottom: 0.2rem;
+  }
+
+  @include desktop {
+    padding-right: 2.5rem;
+    margin-bottom: 0rem;
+  }
+
   &__about {
     font-size: 4.95rem;
 
     &--active {
       color: $primary-hover;
+    }
+
+    @include tablet {
+      font-size: 3.55rem;
+    }
+
+    @include desktop {
+      font-size: 4.95rem;
     }
   }
 
@@ -24,6 +44,14 @@
   &__caret1 {
     @include caret;
     line-height: 1.2rem;
+
+    @include tablet {
+      font-size: 2rem;
+    }
+
+    @include desktop {
+      @include caret;
+    }
   }
 
   &__projects {
@@ -32,6 +60,16 @@
 
     &--active {
       color: $primary-hover;
+    }
+
+    @include tablet {
+      font-size: 2.45rem;
+      line-height: 2.3rem;
+    }
+
+    @include desktop {
+      font-size: 3.4rem;
+      line-height: 3rem;
     }
   }
 
@@ -42,6 +80,15 @@
   &__caret2 {
     @include caret;
     line-height: 3rem;
+
+    @include tablet {
+      font-size: 2rem;
+      line-height: 2.1rem;
+    }
+
+    @include desktop {
+      @include caret;
+    }
   }
 
   &__education {
@@ -50,6 +97,17 @@
 
     &--active {
       color: $primary-hover;
+    }
+
+    @include tablet {
+      font-size: 2.16rem;
+      line-height: 0rem;
+      margin-top: 0.4rem;
+    }
+
+    @include desktop {
+      font-size: 3rem;
+      line-height: 0.9rem;
     }
   }
 
@@ -60,6 +118,18 @@
   &__caret3 {
     @include caret;
     line-height: 4.6rem;
+
+    @include tablet {
+      font-size: 2rem;
+      margin-top: 0.8rem;
+      line-height: normal;
+    }
+
+    @include desktop {
+      @include caret;
+      line-height: 4.6rem;
+      margin-top: 0rem;
+    }
   }
 
   &__experience {
@@ -68,6 +138,18 @@
 
     &--active {
       color: $primary-hover;
+    }
+
+    @include tablet {
+      font-size: 2.05rem;
+      line-height: 0rem;
+      margin-top: 0.6rem;
+    }
+
+    @include desktop {
+      font-size: 2.8rem;
+      line-height: 0rem;
+      margin-top: 0rem;
     }
   }
 
@@ -78,5 +160,17 @@
   &__caret4 {
     @include caret;
     line-height: 5.6rem;
+
+    @include tablet {
+      font-size: 2rem;
+      line-height: normal;
+      margin-top: 0.9rem;
+    }
+
+    @include desktop {
+      @include caret;
+      line-height: 5.6rem;
+      margin-top: 0rem;
+    }
   }
 }

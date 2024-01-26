@@ -6,41 +6,106 @@
   padding-top: 0rem;
 
   @include tablet {
-    padding-left: 2.5rem;
+    padding-left: 1.4rem;
     width: max-content;
+  }
+
+  @include desktop {
+    padding-left: 2.5rem;
   }
 
   &__junior {
     font-size: 4.6rem;
     line-height: 3rem;
     color: $primary-font1;
+
+    @include tablet {
+      font-size: 3.4rem;
+      line-height: 0.8rem;
+    }
+
+    @include desktop {
+      font-size: 4.6rem;
+      line-height: 3rem;
+    }
   }
 
   &__software {
     font-size: 3.1rem;
     line-height: 4.1rem;
     color: $primary-font1;
+
+    @include tablet {
+      font-size: 2.3rem;
+      line-height: 4.6rem;
+    }
+
+    @include desktop {
+      font-size: 3.1rem;
+      line-height: 4.1rem;
+    }
   }
 
   &__engineer {
     font-size: 3.43rem;
     line-height: 2.1rem;
     color: $primary-font1;
+
+    @include tablet {
+      font-size: 2.55rem;
+      line-height: 0.2rem;
+    }
+
+    @include desktop {
+      font-size: 3.43rem;
+      line-height: 2.1rem;
+    }
   }
 
   &__caret2 {
     @include caret;
     line-height: 3.6rem;
+
+    @include tablet {
+      font-size: 2rem;
+      line-height: 4.4rem;
+    }
+
+    @include desktop {
+      font-size: 2.74rem;
+      line-height: 3.6rem;
+    }
   }
 
   &__london {
     font-size: 4rem;
     line-height: 0.9rem;
     color: $primary-font1;
+
+    @include tablet {
+      font-size: 2.9rem;
+      line-height: 0rem;
+      margin-top: -0.4rem;
+    }
+
+    @include desktop {
+      font-size: 4rem;
+      line-height: 0.9rem;
+    }
   }
 
   &__caret3 {
     @include caret;
     line-height: 5.4rem;
+
+    @include tablet {
+      font-size: 2rem;
+      line-height: 4.6rem;
+    }
+
+    @include desktop {
+      font-size: 2.74rem;
+      line-height: 5.4rem;
+    }
   }
 }
