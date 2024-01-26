@@ -3,11 +3,19 @@ import Collapsible from "react-collapsible";
 import nbHome from "../../assets/images/home.png";
 import nbNotebook from "../../assets/images/notebook.png";
 import nbData from "../../assets/images/data.png";
+import { useNavigate } from "react-router-dom";
 
 export default function MobileProjects() {
+  const isProjectsPage = window.location.pathname.endsWith("/projects");
+  const navigate = useNavigate();
+
+  const handleOpen = () => {
+    navigate("/projects");
+  };
+
   return (
     <article className="projects-mobile">
-      <Collapsible trigger="PROJECTS">
+      <Collapsible trigger="PROJECTS" open={isProjectsPage} onOpen={handleOpen}>
         <div className="projects-mobile__textbox">
           <p className="projects-mobile__text-header">NOTEBOOKS</p>
           <p className="projects-mobile__text-header">General</p>
