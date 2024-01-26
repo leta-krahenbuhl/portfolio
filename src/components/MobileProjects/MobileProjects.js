@@ -15,17 +15,25 @@ export default function MobileProjects() {
 
   return (
     <article className="projects-mobile">
-      <Collapsible trigger="PROJECTS" open={isProjectsPage} onOpen={handleOpen}>
+      <Collapsible
+        trigger={
+          <div role="heading" aria-level="2" id="projects-heading">
+            PROJECTS
+          </div>
+        }
+        open={isProjectsPage}
+        onOpen={handleOpen}
+      >
         <div className="projects-mobile__textbox">
-          <p className="projects-mobile__text-header">NOTEBOOKS</p>
-          <p className="projects-mobile__text-header">General</p>
+          <h3 className="projects-mobile__text-header">NOTEBOOKS</h3>
+          <h4 className="projects-mobile__text-header">General</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               Capstone project from the BrainStation software engineering
               bootcamp to showcase front and back-end skills acquired
             </li>
           </ul>
-          <p className="projects-mobile__text-header">Tech Stack</p>
+          <h4 className="projects-mobile__text-header">Tech Stack</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               HTML/BEM, CSS/SASS, JavaScript/JSX, React JS, Node/Express server
@@ -35,7 +43,7 @@ export default function MobileProjects() {
             </li>
             <li className="projects-mobile__list-item">Three API endpoints</li>
           </ul>
-          <p className="projects-mobile__text-header">Check It Out</p>
+          <h4 className="projects-mobile__text-header">Check It Out</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               <a
@@ -58,7 +66,7 @@ export default function MobileProjects() {
               </a>
             </li>
           </ul>
-          <p className="projects-mobile__text-header">Screenshots</p>
+          <h4 className="projects-mobile__text-header">Screenshots</h4>
           <div className="projects-mobile__screenshot-container">
             <img
               src={nbHome}
@@ -78,8 +86,8 @@ export default function MobileProjects() {
           />
         </div>
         <div className="projects-mobile__textbox">
-          <p className="projects-mobile__text-header">THIS PORTFOLIO</p>
-          <p className="projects-mobile__text-header">Tech Stack</p>
+          <h3 className="projects-mobile__text-header">THIS PORTFOLIO</h3>
+          <h4 className="projects-mobile__text-header">Tech Stack</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               React app with HTML/BEM, CSS/SASS and Javascript/JSX
@@ -93,7 +101,7 @@ export default function MobileProjects() {
               Timeframe including design: 4 days
             </li>
           </ul>
-          <p className="projects-mobile__text-header">More</p>
+          <h4 className="projects-mobile__text-header">More</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               <a

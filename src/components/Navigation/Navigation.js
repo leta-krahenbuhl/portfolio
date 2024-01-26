@@ -5,19 +5,19 @@ export default function Navigation() {
   return (
     <nav className="navigation">
       <Link to="/about">
-        <p className="navigation__about">ABOUT</p>
+        <h2 className="navigation__about">ABOUT</h2>
         <p className="navigation__caret1">^^^^^^^^^^</p>
       </Link>
       <Link to="/projects">
-        <p className="navigation__projects">PROJECTS</p>
+        <h2 className="navigation__projects">PROJECTS</h2>
         <p className="navigation__caret2">^^^^^^^^^^</p>
       </Link>
       <Link to="/education">
-        <p className="navigation__education">EDUCATiON</p>
+        <h2 className="navigation__education">EDUCATiON</h2>
         <p className="navigation__caret3">^^^^^^^^^^</p>
       </Link>
       <Link to="/experience">
-        <p className="navigation__experience">EXPERiENCE</p>
+        <h2 className="navigation__experience">EXPERiENCE</h2>
         <p className="navigation__caret4">^^^^^^^^^^</p>
       </Link>
     </nav>

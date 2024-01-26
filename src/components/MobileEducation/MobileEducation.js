@@ -13,14 +13,18 @@ export default function MobileEducation() {
   return (
     <article className="education-mobile">
       <Collapsible
-        trigger="EDUCATiON"
+        trigger={
+          <div role="heading" aria-level="2" id="education-heading">
+            EDUCATiON
+          </div>
+        }
         open={isEducationPage}
         onOpen={handleOpen}
       >
         <div className="education-mobile__textbox">
-          <h2 className="education-mobile__header">
+          <h3 className="education-mobile__header">
             DIPLOMA IN SOFTWARE ENGINEERING
-          </h2>
+          </h3>
           <p className="education-mobile__subheader">
             @ BrainStation, London (UK)
           </p>
@@ -42,9 +46,9 @@ export default function MobileEducation() {
           </ul>
         </div>
         <div className="education-mobile__textbox">
-          <h2 className="education-mobile__header">
+          <h3 className="education-mobile__header">
             BACHELOR'S DEGREE IN INTERMEDIA
-          </h2>
+          </h3>
           <p className="education-mobile__subheader">
             @ University of Applied Sciences, Dornbirn (AUT)
           </p>

@@ -1,9 +1,10 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-.desktop-text-box {
-  display: flex;
-  position: relative;
+.desktop-text-box-new {
+  &__main {
+    @include desktop-text-box-main;
+  }
 
   @keyframes about-main {
     from {
@@ -14,24 +15,28 @@
     }
   }
 
-  &__main {
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    max-height: 25rem;
-    padding: 2.5rem;
-    position: fixed;
-    bottom: 2.5rem;
-    width: 60%;
-    background-color: $primary-background2;
-    color: $primary-font3;
-    font-family: FiraCode-Medium;
-    border-radius: 10px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    animation-name: about-main;
-    animation-duration: 0.3s;
-    animation-delay: 0.2s;
-    animation-fill-mode: both;
+  &__section {
+    @include desktop-text-box-section;
+  }
+
+  &__header {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+
+  &__subheader {
+    font-size: 0.8rem;
+    &--bottom {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__list {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  &__list-item {
+    margin-bottom: 0.5rem;
   }
 
   &__text {
@@ -50,27 +55,20 @@
   &__text-link:hover {
     color: $primary-hover2;
   }
+
+  &__screenshot-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__image {
+    border: solid 3px black;
+    width: 40%;
+    margin: 1rem;
+
+    &--wide {
+      width: 93%;
+    }
+  }
 }
-
-// // where to put this? Does it affect all scroll bars all over the page??
-// /* width */
-// ::-webkit-scrollbar {
-//   width: 1.2rem;
-// }
-
-// /* Track */
-// ::-webkit-scrollbar-track {
-//   background: #f1f1f1;
-//   border-radius: 20px;
-// }
-
-// /* Handle */
-// ::-webkit-scrollbar-thumb {
-//   background: #ffd3e8;
-//   border-radius: 20px;
-// }
-
-// /* Handle on hover */
-// ::-webkit-scrollbar-thumb:hover {
-//   background: $primary-hover2;
-// }

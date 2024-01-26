@@ -1,19 +1,7 @@
 @use "../../styles/partials/mixins" as *;
 @use "../../styles/partials/variables" as *;
 
-.desktop-text-box {
-  display: flex;
-  position: relative;
-
-  @keyframes about-main {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
+.desktop-text-box-about {
   &__main {
     margin-left: 2.5rem;
     margin-top: 2.5rem;
@@ -34,6 +22,15 @@
     animation-fill-mode: both;
   }
 
+  @keyframes about-main {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   &__text {
     padding-bottom: 1rem;
     color: $primary-font3;
@@ -51,26 +48,3 @@
     color: $primary-hover2;
   }
 }
-
-// // where to put this? Does it affect all scroll bars all over the page??
-// /* width */
-// ::-webkit-scrollbar {
-//   width: 1.2rem;
-// }
-
-// /* Track */
-// ::-webkit-scrollbar-track {
-//   background: #f1f1f1;
-//   border-radius: 20px;
-// }
-
-// /* Handle */
-// ::-webkit-scrollbar-thumb {
-//   background: #ffd3e8;
-//   border-radius: 20px;
-// }
-
-// /* Handle on hover */
-// ::-webkit-scrollbar-thumb:hover {
-//   background: $primary-hover2;
-// }

@@ -12,7 +12,15 @@ export default function MobileAbout() {
 
   return (
     <article className="about-mobile">
-      <Collapsible trigger="ABOUT" open={isAboutPage} onOpen={handleOpen}>
+      <Collapsible
+        trigger={
+          <div role="heading" aria-level="2" id="about-heading">
+            ABOUT
+          </div>
+        }
+        open={isAboutPage}
+        onOpen={handleOpen}
+      >
         <div className="about-mobile__textbox">
           <p className="about-mobile__text">Hi! &#9996;</p>
 

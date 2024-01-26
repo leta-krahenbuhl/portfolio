@@ -6,8 +6,8 @@ export default function Header() {
     <header className="header">
       <Link to="/">
         <div className="header__logo">
-          <p className="header__leta">LETA</p>
-          <p className="header__krahen">KRäHENBüHL</p>
+          <h1 className="header__leta">LETA</h1>
+          <h1 className="header__krahen">KRäHENBüHL</h1>
           <p className="header__caret">^^^^^^^^^^</p>
         </div>
       </Link>

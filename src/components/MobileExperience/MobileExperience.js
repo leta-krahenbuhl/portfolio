@@ -13,14 +13,18 @@ export default function MobileExperience() {
   return (
     <article className="experience-mobile">
       <Collapsible
-        trigger="EXPERiENCE"
+        trigger={
+          <div role="heading" aria-level="2" id="experience-heading">
+            EXPERiENCE
+          </div>
+        }
         open={isExperiencePage}
         onOpen={handleOpen}
       >
         <div className="experience-mobile__textbox">
-          <h2 className="experience-mobile__header">
+          <h3 className="experience-mobile__header">
             FAMILY SUPPORT WORKER AT HMP BRIXTON
-          </h2>
+          </h3>
           <p className="experience-mobile__subheader">
             @ Prison Advice and Care Trust, London (UK)
           </p>
@@ -45,7 +49,7 @@ export default function MobileExperience() {
         </div>
 
         <div className="experience-mobile__textbox">
-          <h2 className="experience-mobile__header">GRAPHIC DESIGNER</h2>
+          <h3 className="experience-mobile__header">GRAPHIC DESIGNER</h3>
           <p className="experience-mobile__subheader">freelance, London (UK)</p>
           <p className="experience-mobile__subheader  experience-mobile__subheader--bottom">
             Oct 2019 - Jul 2021, London (UK)
@@ -59,7 +63,7 @@ export default function MobileExperience() {
         </div>
 
         <div className="experience-mobile__textbox">
-          <h2 className="experience-mobile__header">GRAPHIC DESIGNER</h2>
+          <h3 className="experience-mobile__header">GRAPHIC DESIGNER</h3>
           <p className="experience-mobile__subheader">
             @ Good Company, London (UK)
           </p>
@@ -81,9 +85,9 @@ export default function MobileExperience() {
         </div>
 
         <div className="experience-mobile__textbox">
-          <h2 className="experience-mobile__header experience-mobile__header--extra">
+          <h3 className="experience-mobile__header experience-mobile__header--extra">
             MORE...
-          </h2>
+          </h3>
 
           <ul className="experience-mobile__list">
             <li className="experience-mobile__list-item">

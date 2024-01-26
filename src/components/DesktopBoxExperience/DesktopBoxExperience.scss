@@ -3,20 +3,7 @@
 
 .desktop-text-box-new {
   &__main {
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    max-height: 25rem;
-    position: fixed;
-    bottom: 2.5rem;
-    width: 60%;
-    background-color: $primary1-background-lighter;
-    border-radius: 10px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    animation-name: about-main;
-    animation-duration: 0.3s;
-    animation-delay: 0.2s;
-    animation-fill-mode: both;
+    @include desktop-text-box-main;
   }
 
   @keyframes about-main {
@@ -29,14 +16,7 @@
   }
 
   &__section {
-    margin: 2.1rem 1rem 2rem 2rem;
-    padding: 2rem;
-    background-color: $primary-background2;
-    color: $primary-font3;
-    font-family: FiraCode-Medium;
-    border-radius: 10px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    @include desktop-text-box-section;
   }
 
   &__header {
