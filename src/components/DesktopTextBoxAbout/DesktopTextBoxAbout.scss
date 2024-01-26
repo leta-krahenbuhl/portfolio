@@ -52,25 +52,25 @@
   }
 }
 
-// where to put this? Does it affect all scroll bars all over the page??
-/* width */
-::-webkit-scrollbar {
-  width: 1.2rem;
-}
+// // where to put this? Does it affect all scroll bars all over the page??
+// /* width */
+// ::-webkit-scrollbar {
+//   width: 1.2rem;
+// }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 20px;
-}
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   background: #f1f1f1;
+//   border-radius: 20px;
+// }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ffd3e8;
-  border-radius: 20px;
-}
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background: #ffd3e8;
+//   border-radius: 20px;
+// }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: $primary-hover2;
-}
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: $primary-hover2;
+// }

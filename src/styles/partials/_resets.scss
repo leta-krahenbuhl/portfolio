@@ -22,3 +22,26 @@ a {
   text-decoration: none;
   color: $primary-font1;
 }
+
+// where to put this? Does it affect all scroll bars all over the page??
+/* width */
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $primary1-background-light;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary-hover2-light;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $primary-hover2;
+}
