@@ -2,24 +2,34 @@
 @use "../../styles/partials/variables" as *;
 
 .desktop-text-box-about {
-  &__main {
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    max-height: 25rem;
-    padding: 2.5rem;
-    position: fixed;
-    bottom: 2.5rem;
-    width: 60%;
-    background-color: $primary-background2;
-    color: $primary-font3;
-    font-family: FiraCode-Medium;
-    border-radius: 10px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    animation-name: about-main;
-    animation-duration: 0.3s;
-    animation-delay: 0.2s;
-    animation-fill-mode: both;
+  @include tablet {
+    &__main {
+      margin-left: 1.5rem;
+      margin-top: 2.5rem;
+      max-height: 20rem;
+      padding: 2.5rem;
+      position: fixed;
+      bottom: 2.5rem;
+      width: 65%;
+      background-color: $primary-background2;
+      color: $primary-font3;
+      font-family: FiraCode-Medium;
+      border-radius: 10px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      animation-name: about-main;
+      animation-duration: 0.3s;
+      animation-delay: 0.2s;
+      animation-fill-mode: both;
+    }
+  }
+
+  @include desktop {
+    &__main {
+      margin-left: 2.5rem;
+      max-height: 25rem;
+      width: 60%;
+    }
   }
 
   @keyframes about-main {
