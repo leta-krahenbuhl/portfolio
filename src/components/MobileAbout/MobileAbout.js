@@ -15,11 +15,13 @@ export default function MobileAbout() {
       <Collapsible trigger="ABOUT" open={isAboutPage} onOpen={handleOpen}>
         <div className="about-mobile__textbox">
           <p className="about-mobile__text">Hi! &#9996;</p>
+
           <p className="about-mobile__text">
             I am Leta, a recent software engineering diploma graduate. I love
-            things that make sense, ticking off lists, and playing code
-            detective following a lovely trail of error messages.
+            creating, ticking off lists, and playing code detective following a
+            trail of error messages whilst listening to my coding playlist.
           </p>
+
           <p className="about-mobile__text">
             After exploring the social sector and developing my soft and problem
             solving skills, I am going back to my roots - the tech industry.
@@ -43,6 +45,7 @@ export default function MobileAbout() {
               LinkedIn
             </a>
           </p>
+
           <p className="about-mobile__text">
             &#128187;{" "}
             <a
@@ -54,6 +57,7 @@ export default function MobileAbout() {
               GitHub
             </a>
           </p>
+
           <p className="about-mobile__text">
             {" "}
             &#x1F4E7;{" "}

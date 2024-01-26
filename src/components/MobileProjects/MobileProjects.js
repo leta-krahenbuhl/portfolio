@@ -82,13 +82,15 @@ export default function MobileProjects() {
           <p className="projects-mobile__text-header">Tech Stack</p>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
-              React app with HTML/BEM, CSS/SASS and Javascript
+              React app with HTML/BEM, CSS/SASS and Javascript/JSX
             </li>
             <li className="projects-mobile__list-item">
-              Version control with GitHub
+              Use of: states for conditional rendering, subtle CSS keyframe
+              animations, npm libraries and their properties, GitHub for version
+              control
             </li>
             <li className="projects-mobile__list-item">
-              Timeframe (including design): 4 days
+              Timeframe including design: 4 days
             </li>
           </ul>
           <p className="projects-mobile__text-header">More</p>

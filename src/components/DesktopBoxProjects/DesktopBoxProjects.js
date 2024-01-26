@@ -75,10 +75,12 @@ export default function DesktopBoxProjects() {
               React app with HTML/BEM, CSS/SASS and Javascript
             </li>
             <li className="projects-mobile__list-item">
-              Version control with GitHub
+              Use of: states for conditional rendering, subtle CSS keyframe
+              animations, npm libraries and their properties, GitHub for version
+              control{" "}
             </li>
             <li className="projects-mobile__list-item">
-              Timeframe (including design): 4 days
+              Timeframe including design: 4 days
             </li>
           </ul>
           <p className="projects-mobile__text-header">More</p>

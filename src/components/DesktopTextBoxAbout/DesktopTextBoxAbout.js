@@ -8,8 +8,8 @@ export default function DesktopTextBoxAbout() {
 
         <p className="desktop-text-box__text">
           I am Leta, a recent software engineering diploma graduate. I love
-          things that make sense, ticking off lists, and playing code detective
-          following a lovely trail of error messages.
+          creating, ticking off lists, and playing code detective following a
+          trail of error messages whilst listening to my coding playlist.
         </p>
 
         <p className="desktop-text-box__text">
@@ -19,6 +19,7 @@ export default function DesktopTextBoxAbout() {
           the technical side gives me a unique understanding of the development
           process.
         </p>
+
         <p className="desktop-text-box__text">
           Do get in touch or check out my socials!
         </p>
