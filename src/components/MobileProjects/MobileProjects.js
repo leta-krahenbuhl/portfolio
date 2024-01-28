@@ -25,7 +25,7 @@ export default function MobileProjects() {
         onOpen={handleOpen}
       >
         <div className="projects-mobile__textbox">
-          <h3 className="projects-mobile__text-header">NOTEBOOKS</h3>
+          <h3 className="projects-mobile__text-header-h3">NOTEBOOKS</h3>
           <h4 className="projects-mobile__text-header">General</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
@@ -86,7 +86,7 @@ export default function MobileProjects() {
           />
         </div>
         <div className="projects-mobile__textbox">
-          <h3 className="projects-mobile__text-header">THIS PORTFOLIO</h3>
+          <h3 className="projects-mobile__text-header-h3">THIS PORTFOLIO</h3>
           <h4 className="projects-mobile__text-header">Tech Stack</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">

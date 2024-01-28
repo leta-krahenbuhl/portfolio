@@ -46,3 +46,8 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: $primary-hover2;
 }
+
+.Collapsible__trigger:hover {
+  color: $primary-hover2-light;
+  cursor: pointer;
+}

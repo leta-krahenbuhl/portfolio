@@ -13,9 +13,3 @@
 
   @include mobile-text;
 }
-
-//where to put this? changes all the hovers, not just about
-.Collapsible__trigger:hover {
-  color: $primary-hover2-light;
-  cursor: pointer;
-}
