@@ -54,7 +54,6 @@
 
   &__text-link {
     @include tablet {
-      // display: block;
       padding-bottom: 1rem;
       color: $primary-font3;
       cursor: pointer;
