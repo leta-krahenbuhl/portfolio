@@ -10,7 +10,7 @@ export default function DesktopBoxProjects() {
         <main className="desktop-text-box-new__main">
           <section className="desktop-text-box-new__section">
             <h3 className="desktop-text-box-new__header">NOTEBOOKS</h3>
-            <h4 className="projects-mobile__header">General</h4>
+            <h4 className="desktop-text-box-new__header">General</h4>
             <ul className="desktop-text-box-new__list">
               <li className="desktop-text-box-new__list-item">
                 Capstone project from the BrainStation software engineering

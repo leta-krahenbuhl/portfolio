@@ -6,7 +6,7 @@ export default function DesktopBoxExperience() {
       <article className="desktop-text-box-new">
         <main className="desktop-text-box-new__main">
           <section className="desktop-text-box-new__section">
-            <h3 className="desktop-text-box-new__header">
+            <h3 className="desktop-text-box-new__header desktop-text-box-new__header--nospaceafter">
               FAMILY SUPPORT WORKER AT HMP BRIXTON
             </h3>
             <p className="desktop-text-box-new__subheader">
@@ -34,7 +34,9 @@ export default function DesktopBoxExperience() {
           </section>
 
           <section className="desktop-text-box-new__section">
-            <h3 className="desktop-text-box-new__header">GRAPHIC DESIGNER</h3>
+            <h3 className="desktop-text-box-new__header desktop-text-box-new__header--nospaceafter">
+              GRAPHIC DESIGNER
+            </h3>
             <p className="desktop-text-box-new__subheader">
               freelance, London (UK)
             </p>
@@ -50,7 +52,9 @@ export default function DesktopBoxExperience() {
           </section>
 
           <section className="desktop-text-box-new__section">
-            <h3 className="desktop-text-box-new__header">GRAPHIC DESIGNER</h3>
+            <h3 className="desktop-text-box-new__header desktop-text-box-new__header--nospaceafter">
+              GRAPHIC DESIGNER
+            </h3>
             <p className="desktop-text-box-new__subheader">
               @ Good Company, London (UK)
             </p>
