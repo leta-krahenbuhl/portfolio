@@ -6,7 +6,7 @@ export default function DesktopBoxEducation() {
       <article className="desktop-text-box-new">
         <main className="desktop-text-box-new__main">
           <section className="desktop-text-box-new__section">
-            <h3 className="desktop-text-box-new__header">
+            <h3 className="desktop-text-box-new__header desktop-text-box-new__header--education">
               DIPLOMA IN SOFTWARE ENGINEERING
             </h3>
             <p className="desktop-text-box-new__subheader">
@@ -33,7 +33,7 @@ export default function DesktopBoxEducation() {
           </section>
 
           <section className="desktop-text-box-new__section">
-            <h3 className="desktop-text-box-new__header">
+            <h3 className="desktop-text-box-new__header desktop-text-box-new__header--education">
               BACHELOR'S DEGREE IN INTERMEDIA
             </h3>
             <p className="desktop-text-box-new__subheader">

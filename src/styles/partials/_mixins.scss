@@ -82,29 +82,44 @@
 }
 
 @mixin desktop-text-box-main {
-  margin-left: 2.5rem;
-  margin-top: 2.5rem;
-  max-height: 25rem;
-  position: fixed;
-  bottom: 2.5rem;
-  width: 60%;
-  background-color: $primary1-background-lighter;
-  border-radius: 10px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  animation-name: about-main;
-  animation-duration: 0.3s;
-  animation-delay: 0.2s;
-  animation-fill-mode: both;
+  @include tablet {
+    margin-left: 1.5rem;
+    margin-top: 20.5rem;
+    max-height: 20rem;
+    position: fixed;
+    bottom: 1.5rem;
+    width: 65%;
+    background-color: $primary1-background-lighter;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation-name: about-main;
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+  }
+
+  @include desktop {
+    margin-left: 2.5rem;
+    max-height: 25rem;
+    width: 60%;
+    bottom: 2.5rem;
+  }
 }
 
 @mixin desktop-text-box-section {
-  margin: 2.1rem 1rem 2rem 2rem;
-  padding: 2rem;
-  background-color: $primary-background2;
-  color: $primary-font3;
-  font-family: FiraCode-Medium;
-  border-radius: 10px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  @include tablet() {
+    margin: 1.3rem 0rem 1.1rem 1.2rem;
+    padding: 1rem;
+    background-color: $primary-background2;
+    color: $primary-font3;
+    font-family: FiraCode-Medium;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  @include desktop {
+    margin: 2.1rem 1rem 2rem 2rem;
+  }
 }

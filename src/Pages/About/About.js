@@ -1,5 +1,4 @@
-// import DesktopTextBox from "../../components/DesktopTextBox/DesktopTextBox";
-import DesktopTextBoxAbout from "../../components/DesktopTextBoxAbout/DesktopTextBoxAbout";
+import DesktopBoxAbout from "../../components/DesktopBoxAbout/DesktopBoxAbout";
 import Header from "../../components/Header/Header";
 import HeaderSub from "../../components/HeaderSub/HeaderSub";
 import Navigation from "../../components/Navigation/Navigation";
@@ -29,7 +28,7 @@ export default function About() {
       <Header />
       {isVisible && <HeaderSub />}
       <div className="desktop-text-box-wrapper">
-        <DesktopTextBoxAbout />
+        <DesktopBoxAbout />
       </div>
       <div className="navigation-tablet">
         <Navigation />
