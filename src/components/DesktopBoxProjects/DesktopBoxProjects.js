@@ -88,7 +88,7 @@ export default function DesktopBoxProjects() {
                 version control{" "}
               </li>
               <li className="desktop-text-box-new__list-item">
-                Timeframe including design: 4 days
+                Timeframe: 5 days
               </li>
             </ul>
             <h4 className="desktop-text-box-new__header">More</h4>

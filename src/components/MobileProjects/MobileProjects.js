@@ -97,9 +97,7 @@ export default function MobileProjects() {
               animations, npm libraries and their properties, GitHub for version
               control
             </li>
-            <li className="projects-mobile__list-item">
-              Timeframe including design: 4 days
-            </li>
+            <li className="projects-mobile__list-item">Timeframe: 5 days</li>
           </ul>
           <h4 className="projects-mobile__text-header">More</h4>
           <ul className="projects-mobile__list">
