@@ -34,6 +34,13 @@
     }
   }
 
+  @include desktop-large {
+    &__main {
+      max-height: 35rem;
+      width: 68%;
+    }
+  }
+
   @keyframes about-main {
     from {
       opacity: 0;

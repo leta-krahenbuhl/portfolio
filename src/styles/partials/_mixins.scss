@@ -12,6 +12,12 @@
   }
 }
 
+@mixin desktop-large {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}
+
 @mixin caret {
   font-size: 2.74rem;
   color: $primary-font2;
@@ -105,6 +111,11 @@
     max-height: 25rem;
     width: 60%;
     bottom: 2.5rem;
+  }
+
+  @include desktop-large {
+    max-height: 38rem;
+    width: 68%;
   }
 }
 
