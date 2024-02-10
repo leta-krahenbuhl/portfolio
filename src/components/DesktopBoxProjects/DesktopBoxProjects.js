@@ -77,7 +77,6 @@ export default function DesktopBoxProjects() {
 
           <section className="desktop-text-box-new__section">
             <h3 className="desktop-text-box-new__header">THIS PORTFOLIO</h3>
-            <h4 className="desktop-text-box-new__header">Tech Stack</h4>
             <ul className="desktop-text-box-new__list">
               <li className="desktop-text-box-new__list-item">
                 React app with HTML/BEM, CSS/SASS and Javascript
@@ -86,6 +85,9 @@ export default function DesktopBoxProjects() {
                 Use of: states for conditional rendering, subtle CSS keyframe
                 animations, npm libraries and their properties, GitHub for
                 version control{" "}
+              </li>
+              <li className="desktop-text-box-new__list-item">
+                Fully responsive
               </li>
               <li className="desktop-text-box-new__list-item">
                 Timeframe: 5 days
@@ -99,6 +101,44 @@ export default function DesktopBoxProjects() {
                   href="https://github.com/leta-krahenbuhl/portfolio"
                   target="_blank"
                   rel="noreferrer"
+                >
+                  GitHub repo
+                </a>
+              </li>
+            </ul>
+          </section>
+
+          <section className="desktop-text-box-new__section">
+            <h3 className="desktop-text-box-new__header">
+              FREECODECAMP.COM PROJECTS
+            </h3>
+            <ul className="desktop-text-box-new__list">
+              <li className="desktop-text-box-new__list-item">
+                Website with projects I've completed on{" "}
+                <a
+                  className="desktop-text-box-new__text-link"
+                  href="freecodecamp.com"
+                >
+                  freecodecamp.com
+                </a>
+              </li>
+
+              <li className="desktop-text-box-new__list-item">
+                Desktop only for now
+              </li>
+
+              <li className="desktop-text-box-new__list-item">
+                <a
+                  className="desktop-text-box-new__text-link"
+                  href="freecodecamp.com"
+                >
+                  SEE THEM HERE ->
+                </a>
+              </li>
+              <li className="desktop-text-box-new__list-item">
+                <a
+                  className="desktop-text-box-new__text-link"
+                  href="https://github.com/leta-krahenbuhl"
                 >
                   GitHub repo
                 </a>
