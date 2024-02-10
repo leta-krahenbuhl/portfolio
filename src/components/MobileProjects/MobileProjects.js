@@ -87,24 +87,77 @@ export default function MobileProjects() {
         </div>
         <div className="projects-mobile__textbox">
           <h3 className="projects-mobile__text-header-h3">THIS PORTFOLIO</h3>
-          <h4 className="projects-mobile__text-header">Tech Stack</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               React app with HTML/BEM, CSS/SASS and Javascript/JSX
             </li>
             <li className="projects-mobile__list-item">
               Use of: states for conditional rendering, subtle CSS keyframe
-              animations, npm libraries and their properties, GitHub for version
-              control
+              animations, npm libraries and their properties
             </li>
+            <li className="projects-mobile__list-item">Fully responsive</li>
             <li className="projects-mobile__list-item">Timeframe: 5 days</li>
-          </ul>
-          <h4 className="projects-mobile__text-header">More</h4>
-          <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
               <a
                 className="projects-mobile__link"
                 href="https://github.com/leta-krahenbuhl/portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub repo
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="projects-mobile__textbox">
+          <h3 className="projects-mobile__text-header-h3">
+            FREECODECAMP.COM PROJECTS
+          </h3>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              Website with projects I've completed on{" "}
+              <a
+                className="projects-mobile__link"
+                href="https://www.freecodecamp.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                freecodecamp.com
+              </a>
+            </li>
+
+            <li className="projects-mobile__list-item">
+              Desktop only for now!
+            </li>
+
+            <li className="projects-mobile__list-item">
+              Check them out{" "}
+              <a
+                className="projects-mobile__link"
+                href="https://lk-fcc-projects.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                here
+              </a>
+            </li>
+            <li className="projects-mobile__list-item">
+              My FreeCodeCamp{" "}
+              <a
+                className="projects-mobile__link"
+                href="https://www.freecodecamp.org/leta-krahenbuhl"
+                target="_blank"
+                rel="noreferrer"
+              >
+                profile
+              </a>
+            </li>
+
+            <li className="projects-mobile__list-item">
+              <a
+                className="projects-mobile__link"
+                href="https://github.com/leta-krahenbuhl/fcc-projects"
                 target="_blank"
                 rel="noreferrer"
               >
