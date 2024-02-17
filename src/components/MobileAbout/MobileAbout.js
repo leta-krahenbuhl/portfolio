@@ -76,6 +76,18 @@ export default function MobileAbout() {
               Send me an email
             </a>
           </p>
+          <h3 className="desktop-text-box-about__h3">Tech Stack</h3>
+          <ul className="desktop-text-box-about__ul">
+            <li className="desktop-text-box-about__li">
+              HTML (with BEM), CSS and SASS, JavaScript, React.js, Node.js,
+              Express, MySQL, Knex
+            </li>
+            <li>
+              REST APIs, relational databases, version control with GitHub,
+              fully responsive web development, agile development practices,
+              deployment
+            </li>
+          </ul>
         </div>
       </Collapsible>
     </article>

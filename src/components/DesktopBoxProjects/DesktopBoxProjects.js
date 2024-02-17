@@ -29,6 +29,9 @@ export default function DesktopBoxProjects() {
               <li className="desktop-text-box-new__list-item">
                 Three API endpoints
               </li>
+              <li className="desktop-text-box-new__list-item">
+                Form validation on front and back end
+              </li>
             </ul>
 
             <h4 className="desktop-text-box-new__header">Check It Out</h4>
@@ -110,15 +113,19 @@ export default function DesktopBoxProjects() {
             </h3>
             <ul className="desktop-text-box-new__list">
               <li className="desktop-text-box-new__list-item">
-                Website with projects I've completed on{" "}
+                Website:{" "}
                 <a
                   className="desktop-text-box-new__text-link"
-                  href="https://www.freecodecamp.com"
+                  href="https://lk-fcc-projects.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  freecodecamp.com
+                  lk-fcc-projects.netlify.app
                 </a>
+              </li>
+
+              <li className="desktop-text-box-new__list-item">
+                Collection of projects I've completed on freecodecamp.com
               </li>
 
               <li className="desktop-text-box-new__list-item">
@@ -126,26 +133,14 @@ export default function DesktopBoxProjects() {
               </li>
 
               <li className="desktop-text-box-new__list-item">
-                Check them out{" "}
-                <a
-                  className="desktop-text-box-new__text-link"
-                  href="https://lk-fcc-projects.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  here
-                </a>
-              </li>
-
-              <li className="desktop-text-box-new__list-item">
-                My FreeCodeCamp{" "}
+                My{" "}
                 <a
                   className="desktop-text-box-new__text-link"
                   href="https://www.freecodecamp.org/leta-krahenbuhl"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  profile
+                  FreeCodeCamp profile
                 </a>
               </li>
               <li className="desktop-text-box-new__list-item">

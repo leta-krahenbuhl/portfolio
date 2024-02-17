@@ -7,10 +7,10 @@ export default function DesktopBoxAbout() {
         <p className="desktop-text-box-about__text">Hi! &#9996;</p>
 
         <p className="desktop-text-box-about__text">
-          I am Leta, a recent software engineering diploma graduate. I love
-          creating, ticking off lists, and playing code detective following a
-          trail of error messages whilst listening to my coding playlist on
-          repeat.
+          I am Leta, a recent software engineering diploma graduate from
+          BrainStation London (passing grade 92%). I love creating, ticking off
+          lists, and playing code detective following a trail of error messages
+          whilst listening to my coding playlist on repeat.
         </p>
 
         <p className="desktop-text-box-about__text">
@@ -66,6 +66,18 @@ export default function DesktopBoxAbout() {
             </a>
           </p>
         </p>
+
+        <h3 className="desktop-text-box-about__h3">Tech Stack</h3>
+        <ul className="desktop-text-box-about__ul">
+          <li className="desktop-text-box-about__li">
+            HTML (with BEM), CSS and SASS, JavaScript, React.js, Node.js,
+            Express, MySQL, Knex
+          </li>
+          <li>
+            REST APIs, relational databases, version control with GitHub, fully
+            responsive web development, agile development practices, deployment
+          </li>
+        </ul>
       </main>
 
       <div className="desktop-text-box-about__navigation"></div>
