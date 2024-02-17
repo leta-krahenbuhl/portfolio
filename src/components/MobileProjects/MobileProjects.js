@@ -3,6 +3,8 @@ import Collapsible from "react-collapsible";
 import nbHome from "../../assets/images/home.png";
 import nbNotebook from "../../assets/images/notebook.png";
 import nbData from "../../assets/images/data.png";
+import fccScreenshot from "../../assets/images/fcc-screenshot.png";
+
 import { useNavigate } from "react-router-dom";
 
 export default function MobileProjects() {
@@ -26,26 +28,7 @@ export default function MobileProjects() {
       >
         <div className="projects-mobile__textbox">
           <h3 className="projects-mobile__text-header-h3">NOTEBOOKS</h3>
-          <h4 className="projects-mobile__text-header">General</h4>
-          <ul className="projects-mobile__list">
-            <li className="projects-mobile__list-item">
-              Capstone project from the BrainStation software engineering
-              bootcamp to showcase front and back-end skills acquired
-            </li>
-          </ul>
-          <h4 className="projects-mobile__text-header">Tech Stack</h4>
-          <ul className="projects-mobile__list">
-            <li className="projects-mobile__list-item">
-              HTML/BEM, CSS/SASS, JavaScript/JSX, React JS, Node/Express server
-            </li>
-            <li className="projects-mobile__list-item">
-              Use of MySQL database with Knex.js
-            </li>
-            <li className="projects-mobile__list-item">Three API endpoints</li>
-            <li className="projects-mobile__list-item">
-              Form validation on front and back end
-            </li>
-          </ul>
+
           <h4 className="projects-mobile__text-header">Check It Out</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
@@ -69,6 +52,29 @@ export default function MobileProjects() {
               </a>
             </li>
           </ul>
+
+          <h4 className="projects-mobile__text-header">General</h4>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              Capstone project from the BrainStation software engineering
+              bootcamp to showcase front and back-end skills acquired
+            </li>
+          </ul>
+
+          <h4 className="projects-mobile__text-header">Tech Stack</h4>
+          <ul className="projects-mobile__list">
+            <li className="projects-mobile__list-item">
+              HTML/BEM, CSS/SASS, JavaScript/JSX, React JS, Node/Express server
+            </li>
+            <li className="projects-mobile__list-item">
+              Use of MySQL database with Knex.js
+            </li>
+            <li className="projects-mobile__list-item">Three API endpoints</li>
+            <li className="projects-mobile__list-item">
+              Form validation on front and back end
+            </li>
+          </ul>
+
           <h4 className="projects-mobile__text-header">Screenshots</h4>
           <div className="projects-mobile__screenshot-container">
             <img
@@ -88,6 +94,7 @@ export default function MobileProjects() {
             className="projects-mobile__image projects-mobile__image--wide"
           />
         </div>
+
         <div className="projects-mobile__textbox">
           <h3 className="projects-mobile__text-header-h3">THIS PORTFOLIO</h3>
           <ul className="projects-mobile__list">
@@ -119,26 +126,22 @@ export default function MobileProjects() {
           </h3>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
-              Website:{" "}
               <a
                 className="projects-mobile__link"
                 href="https://lk-fcc-projects.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                lk-fcc-projects.netlify.app
+                Live page
               </a>
             </li>
             <li className="projects-mobile__list-item">
               Collection of projects I've completed on freecodecamp.com
             </li>
-
             <li className="projects-mobile__list-item">
-              Desktop only for now!
+              HTML/CSS and JavaScript (desktop only for now!)
             </li>
-
             <li className="projects-mobile__list-item">
-              My{" "}
               <a
                 className="projects-mobile__link"
                 href="https://www.freecodecamp.org/leta-krahenbuhl"
@@ -149,7 +152,6 @@ export default function MobileProjects() {
               </a>
               , including current coding streak!
             </li>
-
             <li className="projects-mobile__list-item">
               <a
                 className="projects-mobile__link"
@@ -161,6 +163,19 @@ export default function MobileProjects() {
               </a>
             </li>
           </ul>
+          <div className="projects-mobile__screenshot-container">
+            <a
+              href="https://lk-fcc-projects.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={fccScreenshot}
+                alt="screenshot of notebook app home"
+                className="projects-mobile__image projects-mobile__image--wide"
+              />
+            </a>
+          </div>
         </div>
       </Collapsible>
     </article>
