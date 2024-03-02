@@ -25,7 +25,7 @@ export default function DesktopBoxAbout() {
           Do get in touch or check out my socials!
         </p>
 
-        <p className="desktop-text-box-about__text">
+        <div className="desktop-text-box-about__text">
           <p className="desktop-text-box-about__text desktop-text-box-about__text--icon">
             &#128391;{" "}
             <a
@@ -37,9 +37,9 @@ export default function DesktopBoxAbout() {
               LinkedIn
             </a>
           </p>
-        </p>
+        </div>
 
-        <p className="desktop-text-box-about__text">
+        <div className="desktop-text-box-about__text">
           <p className="desktop-text-box-about__text desktop-text-box-about__text--icon">
             &#128187;{" "}
             <a
@@ -51,9 +51,9 @@ export default function DesktopBoxAbout() {
               GitHub
             </a>
           </p>
-        </p>
+        </div>
 
-        <p className="desktop-text-box-about__text">
+        <div className="desktop-text-box-about__text">
           <p className="desktop-text-box-about__text desktop-text-box-about__text--icon">
             &#x1F4E7;{" "}
             <a
@@ -65,7 +65,7 @@ export default function DesktopBoxAbout() {
               Say hi via Email
             </a>
           </p>
-        </p>
+        </div>
 
         <h3 className="desktop-text-box-about__h3">Tech Stack</h3>
         <ul className="desktop-text-box-about__ul">
