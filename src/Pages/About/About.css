@@ -1,0 +1,27 @@
+.about {
+  min-height: 100vh;
+}
+
+.desktop-text-box-wrapper {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-text-box-wrapper {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-mobile {
+    display: none;
+  }
+}
+
+.navigation-tablet {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navigation-tablet {
+    display: inline;
+  }
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,18 @@
+.home {
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-mobile {
+    display: none;
+  }
+}
+
+.navigation-tablet {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navigation-tablet {
+    display: inline;
+  }
+}/*# sourceMappingURL=Home.css.map */

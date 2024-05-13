@@ -1,0 +1,54 @@
+.about-mobile {
+  color: #fffdc3;
+  font-size: 4.95rem;
+  margin-top: -3rem;
+  margin-bottom: 0.5rem;
+}
+.about-mobile__textbox {
+  background-color: white;
+  font-family: FiraCode-Medium;
+  font-size: 1rem;
+  color: black;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+.about-mobile__header {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+.about-mobile__header--extra {
+  margin-bottom: 1rem;
+}
+.about-mobile__subheader {
+  font-size: 0.8rem;
+}
+.about-mobile__subheader--bottom {
+  margin-bottom: 1rem;
+}
+.about-mobile__list {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.about-mobile__list-item {
+  margin-bottom: 0.5rem;
+  margin-left: -1rem;
+}
+.about-mobile__text {
+  text-align: left;
+  padding-bottom: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+.about-mobile__text-link {
+  padding-bottom: 1rem;
+  color: black;
+  cursor: pointer;
+  width: max-content;
+  text-decoration: underline;
+}
+.about-mobile__text-link:hover {
+  color: #ffd1e7;
+}/*# sourceMappingURL=MobileAbout.css.map */

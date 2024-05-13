@@ -22,6 +22,32 @@ export default function MobileExperience() {
         onOpen={handleOpen}
       >
         <div className="experience-mobile__textbox">
+          <h3 className="experience-mobile__header">JUNIOR WEB DEVELOPER</h3>
+          <p className="experience-mobile__subheader">
+            @ Freelance, London (UK)
+          </p>
+          <p className="experience-mobile__subheader  experience-mobile__subheader--bottom">
+            Apr 2024 - now
+          </p>
+          <ul className="experience-mobile__list">
+            <li className="experience-mobile__list-item">
+              Currently working with Naxxar Technology Ltd
+            </li>
+            <li className="experience-mobile__list-item">
+              Developing a Node.js/Express server featuring a RESTful API,
+              integrating Firebase and MongoDB databases
+            </li>
+            <li className="experience-mobile__list-item">
+              Integrating authorisation and roles/access permissions
+            </li>
+
+            <li className="experience-mobile__list-item">
+              Designing the implementation of a new feature in the Naxxar app
+            </li>
+          </ul>
+        </div>
+
+        <div className="experience-mobile__textbox">
           <h3 className="experience-mobile__header">
             FAMILY SUPPORT WORKER AT HMP BRIXTON
           </h3>

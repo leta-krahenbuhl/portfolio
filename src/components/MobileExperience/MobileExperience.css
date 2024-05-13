@@ -1,0 +1,53 @@
+.experience-mobile {
+  color: #fffdc3;
+  font-size: 2.82rem;
+  margin-top: -0.9rem;
+}
+.experience-mobile__textbox {
+  background-color: white;
+  font-family: FiraCode-Medium;
+  font-size: 1rem;
+  color: black;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+.experience-mobile__header {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+.experience-mobile__header--extra {
+  margin-bottom: 1rem;
+}
+.experience-mobile__subheader {
+  font-size: 0.8rem;
+}
+.experience-mobile__subheader--bottom {
+  margin-bottom: 1rem;
+}
+.experience-mobile__list {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.experience-mobile__list-item {
+  margin-bottom: 0.5rem;
+  margin-left: -1rem;
+}
+.experience-mobile__text {
+  text-align: left;
+  padding-bottom: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+.experience-mobile__text-link {
+  padding-bottom: 1rem;
+  color: black;
+  cursor: pointer;
+  width: max-content;
+  text-decoration: underline;
+}
+.experience-mobile__text-link:hover {
+  color: #ffd1e7;
+}/*# sourceMappingURL=MobileExperience.css.map */

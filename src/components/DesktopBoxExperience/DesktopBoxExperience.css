@@ -1,0 +1,105 @@
+@media screen and (min-width: 768px) {
+  .desktop-text-box-new__main {
+    margin-left: 1.5rem;
+    margin-top: 20.5rem;
+    max-height: 20rem;
+    position: fixed;
+    bottom: 1.5rem;
+    width: 65%;
+    background-color: #ddf2ff;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation-name: about-main;
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-new__main {
+    margin-left: 2.5rem;
+    max-height: 25rem;
+    width: 60%;
+    bottom: 2.5rem;
+  }
+}
+@media screen and (min-width: 1460px) {
+  .desktop-text-box-new__main {
+    max-height: 38rem;
+    width: 68%;
+  }
+}
+@keyframes about-main {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desktop-text-box-new__section {
+    margin: 1.3rem 0rem 1.1rem 1.2rem;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    font-family: FiraCode-Medium;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-new__section {
+    margin: 2.1rem 1rem 2rem 2rem;
+  }
+}
+.desktop-text-box-new__header {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-new__header {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+.desktop-text-box-new__header--nospaceafter {
+  margin-bottom: -2px;
+}
+.desktop-text-box-new__subheader {
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-new__subheader {
+    margin-left: 1rem;
+  }
+}
+.desktop-text-box-new__subheader--bottom {
+  margin-bottom: 1rem;
+}
+.desktop-text-box-new__list {
+  margin-bottom: 1rem;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-new__list {
+    margin-left: 1rem;
+  }
+}
+.desktop-text-box-new__list-item {
+  margin-bottom: 0.5rem;
+}
+.desktop-text-box-new__text-link {
+  padding-bottom: 1rem;
+  color: black;
+  cursor: pointer;
+  width: max-content;
+  text-decoration: underline;
+}
+.desktop-text-box-new__text-link:hover {
+  color: #ffd1e7;
+}/*# sourceMappingURL=DesktopBoxExperience.css.map */

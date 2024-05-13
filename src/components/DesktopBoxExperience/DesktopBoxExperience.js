@@ -7,6 +7,33 @@ export default function DesktopBoxExperience() {
         <main className="desktop-text-box-new__main">
           <section className="desktop-text-box-new__section">
             <h3 className="desktop-text-box-new__header desktop-text-box-new__header--nospaceafter">
+              JUNIOR WEB DEVELOPER
+            </h3>
+            <p className="desktop-text-box-new__subheader">
+              @ Freelance, London (UK)
+            </p>
+            <p className="desktop-text-box-new__subheader  desktop-text-box-new__subheader--bottom">
+              Apr 2024 - now
+            </p>
+            <ul className="desktop-text-box-new__list">
+              <li className="desktop-text-box-new__list-item">
+                Currently working with Naxxar Technology Ltd
+              </li>
+              <li className="desktop-text-box-new__list-item">
+                Developing a Node.js/Express server featuring a RESTful API,
+                integrating Firebase and MongoDB databases
+              </li>
+              <li className="desktop-text-box-new__list-item">
+                Integrating authorisation and roles/access permissions
+              </li>
+              <li className="desktop-text-box-new__list-item">
+                Designing the implementation of a new feature in the Naxxar app
+              </li>
+            </ul>
+          </section>
+
+          <section className="desktop-text-box-new__section">
+            <h3 className="desktop-text-box-new__header desktop-text-box-new__header--nospaceafter">
               FAMILY SUPPORT WORKER AT HMP BRIXTON
             </h3>
             <p className="desktop-text-box-new__subheader">

@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px) {
+  .desktop-text-box-about__main {
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+    max-height: 20rem;
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    position: fixed;
+    bottom: 1.5rem;
+    width: 65%;
+    background-color: white;
+    color: black;
+    font-family: FiraCode-Medium;
+    border-radius: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation-name: about-main;
+    animation-duration: 0.3s;
+    animation-delay: 0.2s;
+    animation-fill-mode: both;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-about__main {
+    padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+    margin-left: 2.5rem;
+    max-height: 25rem;
+    width: 60%;
+    bottom: 2.5rem;
+  }
+}
+@media screen and (min-width: 1460px) {
+  .desktop-text-box-about__main {
+    max-height: 35rem;
+    width: 68%;
+  }
+}
+@keyframes about-main {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.desktop-text-box-about__text {
+  padding-bottom: 1rem;
+  color: black;
+}
+.desktop-text-box-about__text--icon {
+  display: inline;
+}
+@media screen and (min-width: 768px) {
+  .desktop-text-box-about__text-link {
+    padding-bottom: 1rem;
+    color: black;
+    cursor: pointer;
+    width: max-content;
+    text-decoration: underline;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .desktop-text-box-about__text-link {
+    text-decoration: none;
+  }
+}
+.desktop-text-box-about__text-link:hover {
+  color: #ffd1e7;
+}
+.desktop-text-box-about__h3 {
+  font-size: 1rem;
+}
+.desktop-text-box-about__ul {
+  margin-bottom: 1rem;
+}
+.desktop-text-box-about__li {
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=DesktopBoxAbout.css.map */

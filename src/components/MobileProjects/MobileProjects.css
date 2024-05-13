@@ -1,0 +1,87 @@
+.projects-mobile {
+  color: #fffdc3;
+  font-size: 3.4rem;
+  margin-top: 0.2rem;
+}
+.projects-mobile__textbox {
+  background-color: white;
+  font-family: FiraCode-Medium;
+  font-size: 1rem;
+  color: black;
+  margin: 0rem 1rem 1rem 1rem;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+  text-align: center;
+}
+.projects-mobile__header {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+.projects-mobile__header--extra {
+  margin-bottom: 1rem;
+}
+.projects-mobile__subheader {
+  font-size: 0.8rem;
+}
+.projects-mobile__subheader--bottom {
+  margin-bottom: 1rem;
+}
+.projects-mobile__list {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.projects-mobile__list-item {
+  margin-bottom: 0.5rem;
+  margin-left: -1rem;
+}
+.projects-mobile__text {
+  text-align: left;
+  padding-bottom: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+.projects-mobile__text-link {
+  padding-bottom: 1rem;
+  color: black;
+  cursor: pointer;
+  width: max-content;
+  text-decoration: underline;
+}
+.projects-mobile__text-link:hover {
+  color: #ffd1e7;
+}
+.projects-mobile__text-header-h3 {
+  margin-bottom: 1.5rem;
+  margin-top: 0rem;
+  text-align: left;
+}
+.projects-mobile__text-header {
+  text-align: left;
+  font-family: FiraCode-Bold;
+  margin-top: 0rem;
+  margin-bottom: 0.8rem;
+}
+.projects-mobile__list {
+  margin-bottom: 1.5rem;
+}
+.projects-mobile__link {
+  color: black;
+  cursor: pointer;
+  width: max-content;
+  text-decoration: underline;
+}
+.projects-mobile__screenshot-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.projects-mobile__image {
+  border: solid 3px black;
+  width: 40%;
+  margin: 1rem;
+}
+.projects-mobile__image--wide {
+  width: 93%;
+}/*# sourceMappingURL=MobileProjects.css.map */
