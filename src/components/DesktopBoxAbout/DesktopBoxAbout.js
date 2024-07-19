@@ -7,11 +7,10 @@ export default function DesktopBoxAbout() {
         <p className="desktop-text-box-about__text">Hi! &#9996;</p>
 
         <p className="desktop-text-box-about__text">
-          I am Leta, a freelance junior web developer and recent software
+          I am Leta, a seasoned graphic designer (BA) and recent software
           engineering diploma graduate from BrainStation London (passing grade
-          92%). I love creating, ticking off lists, and playing code detective
-          following a trail of error messages whilst listening to my coding
-          playlist on repeat.
+          92%). I strive for excellence, love all aspects of creating, and am
+          driven by passion.
         </p>
 
         <p className="desktop-text-box-about__text">
@@ -56,6 +55,20 @@ export default function DesktopBoxAbout() {
 
         <div className="desktop-text-box-about__text">
           <p className="desktop-text-box-about__text desktop-text-box-about__text--icon">
+            &#128165;{" "}
+            <a
+              className="desktop-text-box-about__text-link"
+              href="https://www.behance.net/leta-krahenbuhl"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Behance
+            </a>
+          </p>
+        </div>
+
+        <div className="desktop-text-box-about__text">
+          <p className="desktop-text-box-about__text desktop-text-box-about__text--icon">
             &#x1F4E7;{" "}
             <a
               className="desktop-text-box-about__text-link"
@@ -75,10 +88,13 @@ export default function DesktopBoxAbout() {
             learning TypeScript), Node.js, Express, MySQL, Knex, Mongoose,
             MongoDB, Firebase
           </li>
-          <li>
+          <li className="desktop-text-box-about__li">
             REST APIs, relational/non-relational databases, version control with
             GitHub, fully responsive web development, agile development
             practices, deployment
+          </li>
+          <li className="desktop-text-box-about__li">
+            Photoshop, InDesign, Illustrator, Figma, QuarkXpress
           </li>
         </ul>
       </main>

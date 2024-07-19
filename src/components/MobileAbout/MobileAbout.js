@@ -25,10 +25,10 @@ export default function MobileAbout() {
           <p className="about-mobile__text">Hi! &#9996;</p>
 
           <p className="about-mobile__text">
-            I am Leta, a freelance junior web developer and a recent software
-            engineering diploma graduate. I love creating, ticking off lists,
-            and playing code detective following a trail of error messages
-            whilst listening to my coding playlist.
+            I am Leta, a seasoned graphic designer (BA) and recent software
+            engineering diploma graduate from BrainStation London (passing grade
+            92%). I strive for excellence, love all aspects of creating, and am
+            driven by passion.
           </p>
 
           <p className="about-mobile__text">
@@ -68,6 +68,18 @@ export default function MobileAbout() {
           </p>
 
           <p className="about-mobile__text">
+            &#128165;{" "}
+            <a
+              className="about-mobile__text-link about-mobile__text-link--extra"
+              href="https://www.behance.net/leta-krahenbuhl"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Behance
+            </a>
+          </p>
+
+          <p className="about-mobile__text">
             {" "}
             &#x1F4E7;{" "}
             <a
@@ -84,10 +96,13 @@ export default function MobileAbout() {
               learning TypeScript), Node.js, Express, MySQL, Knex, Mongoose,
               MongoDB, Firebase
             </li>
-            <li>
+            <li className="desktop-text-box-about__li">
               REST APIs, relational/non-relational databases, version control
               with GitHub, fully responsive web development, agile development
               practices, deployment
+            </li>
+            <li className="desktop-text-box-about__li">
+              Photoshop, InDesign, Illustrator, Figma, QuarkXpress
             </li>
           </ul>
         </div>
