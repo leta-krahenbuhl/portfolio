@@ -30,13 +30,14 @@
 
 @mixin mobile-textbox {
   background-color: $primary-font1;
-  font-family: FiraCode-Medium;
+  font-family: "Fira Code", Courier, monospace;
   font-size: 1rem;
   color: $primary-font3;
   margin: 0rem 1rem 1rem 1rem;
   padding: 1rem;
   text-align: left;
   border-radius: 10px;
+  font-weight: 600;
 }
 
 @mixin mobile-text {
@@ -104,6 +105,7 @@
     animation-duration: 0.3s;
     animation-delay: 0.2s;
     animation-fill-mode: both;
+    font-weight: 600;
   }
 
   @include desktop {
@@ -125,7 +127,7 @@
     padding: 1rem;
     background-color: $primary-background2;
     color: $primary-font3;
-    font-family: FiraCode-Medium;
+    font-family: "Fira Code", Courier, monospace;
     border-radius: 10px;
     overflow-y: auto;
     overflow-x: hidden;
