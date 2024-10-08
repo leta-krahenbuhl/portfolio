@@ -76,18 +76,6 @@ export default function MobileAbout() {
           </p>
 
           <p className="about-mobile__text">
-            &#128165;{" "}
-            <a
-              className="about-mobile__text-link about-mobile__text-link--extra"
-              href="https://www.behance.net/leta-krahenbuhl"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Behance
-            </a>
-          </p>
-
-          <p className="about-mobile__text">
             {" "}
             &#x1F4E7;{" "}
             <a
@@ -104,13 +92,10 @@ export default function MobileAbout() {
               learning TypeScript), Node.js, Express, MySQL, Knex, Mongoose,
               MongoDB, Firebase
             </li>
-            <li className="desktop-text-box-about__li">
+            <li>
               REST APIs, relational/non-relational databases, version control
               with GitHub, fully responsive web development, agile development
               practices, deployment with Heroku and Microsoft Azure
-            </li>
-            <li className="desktop-text-box-about__li">
-              Photoshop, InDesign, Illustrator, Figma, QuarkXpress
             </li>
           </ul>
         </div>
