@@ -4,6 +4,7 @@
 
 .app {
   color: $primary-font1;
-  font-family: Raleway-Black;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-weight: 900; // why doesn't this work?
   background-color: $primary1;
 }

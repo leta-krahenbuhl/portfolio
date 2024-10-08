@@ -28,6 +28,7 @@
   font-size: 7.1rem;
   line-height: 5.3rem;
   margin-left: -0.3rem;
+  font-weight: 900;
 }
 @media screen and (min-width: 768px) {
   .header__leta {
@@ -47,6 +48,7 @@
 .header__krahen {
   font-size: 2.52rem;
   line-height: 3.1rem;
+  font-weight: 900;
 }
 @media screen and (min-width: 768px) {
   .header__krahen {
