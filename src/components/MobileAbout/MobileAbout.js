@@ -22,21 +22,29 @@ export default function MobileAbout() {
         onOpen={handleOpen}
       >
         <div className="about-mobile__textbox">
-          <p className="about-mobile__text">Hi! &#9996;</p>
+          <p className="about-mobile__text">Hi! 👩‍💻</p>
 
           <p className="about-mobile__text">
-            I am Leta, a seasoned graphic designer (BA) and recent software
-            engineering diploma graduate from BrainStation London (passing grade
-            92%). I strive for excellence, love all aspects of creating, and am
-            driven by passion.
+            I am Leta. After exploring the social sector and honing my soft and
+            problem solving skills, I am going back to my roots - the tech
+            industry.
           </p>
 
           <p className="about-mobile__text">
-            After exploring the social sector and developing my soft and problem
-            solving skills, I am going back to my roots - the tech industry.
-            Coming originally from a graphic design background and now mastering
-            the technical side gives me a unique understanding of the
-            development process.
+            Last year I graduated with a diploma in Software Engineering,
+            finishing with a 92% grade. Since then I've worked a temporary
+            contract for a geotech start-up, where I designed and developed a
+            cargo security app. Currently, I am working on a new project called
+            'Done&Dusted', an app that turns housekeeping into a competitive
+            game.
+          </p>
+
+          <p className="about-mobile__text">
+            I love creating, ticking off lists, and playing code detective
+            following a trail of error messages whilst listening to my coding
+            playlist. Coming originally from a graphic design background and now
+            mastering the technical side of creating gives me a unique
+            understanding of the development process.
           </p>
 
           <p className="about-mobile__text">
@@ -99,7 +107,7 @@ export default function MobileAbout() {
             <li className="desktop-text-box-about__li">
               REST APIs, relational/non-relational databases, version control
               with GitHub, fully responsive web development, agile development
-              practices, deployment
+              practices, deployment with Heroku and Microsoft Azure
             </li>
             <li className="desktop-text-box-about__li">
               Photoshop, InDesign, Illustrator, Figma, QuarkXpress
