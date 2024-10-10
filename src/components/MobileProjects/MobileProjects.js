@@ -78,7 +78,7 @@ export default function MobileProjects() {
           <h4 className="projects-mobile__text-header">Tech Stack</h4>
           <ul className="projects-mobile__list">
             <li className="projects-mobile__list-item">
-              React front-end, Noje.js/Express back-end, MongoDB Atlas database{" "}
+              React front-end, Node.js/Express back-end, MongoDB Atlas database{" "}
             </li>
             <li className="projects-mobile__list-item">
               Authorisation (sign up and login)
