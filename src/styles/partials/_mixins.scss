@@ -37,7 +37,7 @@
   padding: 1rem;
   text-align: left;
   border-radius: 10px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @mixin mobile-text {
@@ -92,8 +92,9 @@
 @mixin desktop-text-box-main {
   @include tablet {
     margin-left: 1.5rem;
-    margin-top: 20.5rem;
-    max-height: 20rem;
+    // margin-top: 20.5rem;
+    // max-height: 20rem;
+    height: 70%;
     position: fixed;
     bottom: 1.5rem;
     width: 65%;
@@ -105,7 +106,7 @@
     animation-duration: 0.3s;
     animation-delay: 0.2s;
     animation-fill-mode: both;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   @include desktop {
