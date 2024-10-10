@@ -34,9 +34,8 @@ export default function MobileAbout() {
             Last year I graduated with a diploma in Software Engineering,
             finishing with a 92% grade. Since then I've worked a temporary
             contract for a geotech start-up, where I designed and developed a
-            cargo security app. Currently, I am working on a new project called
-            'Done&Dusted', an app that turns housekeeping into a competitive
-            game.
+            cargo security app. Currently, I am working on personal projects;
+            check out the project section to learn more about them.
           </p>
 
           <p className="about-mobile__text">
