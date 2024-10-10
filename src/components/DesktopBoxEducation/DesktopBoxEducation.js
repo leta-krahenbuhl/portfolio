@@ -44,8 +44,12 @@ export default function DesktopBoxEducation() {
             </p>
             <ul className="desktop-text-box-new__list">
               <li className="desktop-text-box-new__list-item">
-                Subjects included programming, graphic design, photography,
-                psychology, typography, videography, post production
+                Subjects included media technology & informatics, design,
+                photography, psychology, typography, marketing, video production
+              </li>
+              <li className="desktop-text-box-new__list-item">
+                180 ECTS credits (equivalent to a UK undergraduate degree with
+                honours)
               </li>
             </ul>
           </section>

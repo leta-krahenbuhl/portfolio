@@ -57,8 +57,12 @@ export default function MobileEducation() {
           </p>
           <ul className="education-mobile__list">
             <li className="education-mobile__list-item">
-              Subjects included programming, graphic design, photography,
-              psychology, typography, videography, post production
+              Subjects included media technology & informatics, design,
+              photography, psychology, typography, marketing, video production
+            </li>
+            <li className="education-mobile__list-item">
+              180 ECTS credits (equivalent to a UK undergraduate degree with
+              honours)
             </li>
           </ul>
         </div>
