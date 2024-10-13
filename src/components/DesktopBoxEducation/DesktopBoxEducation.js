@@ -48,8 +48,8 @@ export default function DesktopBoxEducation() {
                 photography, psychology, typography, marketing, video production
               </li>
               <li className="desktop-text-box-new__list-item">
-                180 ECTS credits (equivalent to a UK undergraduate degree with
-                honours)
+                180 ECTS credits / grade of 2.24 (equivalent to a UK 2:1
+                bachelor's degree)
               </li>
             </ul>
           </section>
