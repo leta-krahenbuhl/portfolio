@@ -34,7 +34,7 @@ export default function MobileEducation() {
           <ul className="education-mobile__list">
             <li className="education-mobile__list-item">Passing grade 92%</li>
             <li className="education-mobile__list-item">
-              HTML, BEM, CSS, SASS, JavaScript, React JS, JSX
+              HTML, BEM, CSS, SASS, JavaScript, React JS
             </li>
             <li className="education-mobile__list-item">
               Node/Express, mySQL, Knex, REST APIs

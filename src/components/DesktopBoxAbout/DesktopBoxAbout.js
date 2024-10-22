@@ -77,7 +77,7 @@ export default function DesktopBoxAbout() {
         <h3 className="desktop-text-box-about__h3">Tech Stack</h3>
         <ul className="desktop-text-box-about__ul">
           <li className="desktop-text-box-about__li">
-            HTML (with BEM), CSS and SASS, JavaScript, React
+            HTML (with BEM), CSS and SASS, JavaScript, React, TypeScript
           </li>
           <li className="desktop-text-box-about__li">
             Node.js, Express, MySQL, Knex, MongoDB, Mongoose, Firebase
@@ -88,7 +88,7 @@ export default function DesktopBoxAbout() {
             and Railway)
           </li>
           <li className="desktop-text-box-about__li">
-            Learning next: TypeScript, Python and React Native
+            Learning next: Python and React Native
           </li>
         </ul>
       </main>

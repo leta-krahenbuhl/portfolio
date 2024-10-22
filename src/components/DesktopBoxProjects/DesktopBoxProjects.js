@@ -61,8 +61,8 @@ export default function DesktopBoxProjects() {
             <h4 className="desktop-text-box-new__header">Tech Stack</h4>
             <ul>
               <li className="desktop-text-box-new__list-item">
-                React front-end, Node.js/Express back-end, MongoDB Atlas
-                database
+                React/TypeScript front-end, Node.js/Express back-end, MongoDB
+                Atlas database
               </li>
               <li className="desktop-text-box-new__list-item">
                 Authorisation (sign up and login)

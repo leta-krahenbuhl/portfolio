@@ -20,7 +20,7 @@ export default function DesktopBoxEducation() {
                 Passing grade 92%
               </li>
               <li className="desktop-text-box-new__list-item">
-                HTML, BEM, CSS, SASS, JavaScript, React JS, JSX
+                HTML, BEM, CSS, SASS, JavaScript, React JS
               </li>
               <li className="desktop-text-box-new__list-item">
                 Node/Express, mySQL, Knex, REST APIs
