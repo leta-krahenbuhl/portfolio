@@ -13,18 +13,15 @@ export default function DesktopBoxExperience() {
               @ Freelance, London (UK)
             </p>
             <p className="desktop-text-box-new__subheader  desktop-text-box-new__subheader--bottom">
-              Apr 2024 - now
+              Apr 2024 - Jun 2024
             </p>
             <ul className="desktop-text-box-new__list">
               <li className="desktop-text-box-new__list-item">
-                Currently working with Naxxar Technology Ltd
-              </li>
-              <li className="desktop-text-box-new__list-item">
-                Developing a Node.js/Express server featuring a RESTful API,
-                integrating Firebase and MongoDB databases
-              </li>
-              <li className="desktop-text-box-new__list-item">
-                Integrating authorisation and roles/access permissions
+                Development start of a new cargo security web app including
+                design, development of a React front end with a Node.js/Express
+                server featuring a RESTful API, integration of Firebase and
+                MongoDB databases, and integration of authorisation and
+                roles/access permissions
               </li>
               <li className="desktop-text-box-new__list-item">
                 Designing the implementation of a new feature in the Naxxar app

@@ -27,20 +27,16 @@ export default function MobileExperience() {
             @ Freelance, London (UK)
           </p>
           <p className="experience-mobile__subheader  experience-mobile__subheader--bottom">
-            Apr 2024 - now
+            Apr 2024 - Jun 2024
           </p>
           <ul className="experience-mobile__list">
             <li className="experience-mobile__list-item">
-              Currently working with Naxxar Technology Ltd
+              Development start of a new cargo security web app including
+              design, development of a React front end with a Node.js/Express
+              server featuring a RESTful API, integration of Firebase and
+              MongoDB databases, and integration of authorisation and
+              roles/access permissions
             </li>
-            <li className="experience-mobile__list-item">
-              Developing a Node.js/Express server featuring a RESTful API,
-              integrating Firebase and MongoDB databases
-            </li>
-            <li className="experience-mobile__list-item">
-              Integrating authorisation and roles/access permissions
-            </li>
-
             <li className="experience-mobile__list-item">
               Designing the implementation of a new feature in the Naxxar app
             </li>
